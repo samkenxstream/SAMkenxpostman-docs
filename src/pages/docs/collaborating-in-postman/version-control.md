@@ -78,8 +78,6 @@ Your fork will be created in the selected workspace.
 
 If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with the collection or environment, they won't be linked to the forked entity. You will need to create mocks and monitors specifically for the fork if you need them.
 
-> If a collection resides in a public workspace that you aren't a member of, you won't be able to send a request within that workspace. You must fork the collection into a personal workspace or a team workspace that you belong to in order to send requests or make changes to that collection.
-
 ### Viewing fork information
 
 Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
