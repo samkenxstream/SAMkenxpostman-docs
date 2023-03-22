@@ -10,7 +10,7 @@ contextual_links:
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -23,18 +23,18 @@ contextual_links:
     name: "Exploring the Public APIs and the Public API Network"
     url: "https://youtu.be/azJnjF9hqAw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Exploring Public APIs and the Public API Network"
     url: "https://blog.postman.com/exploring-public-apis-and-public-api-network/"
   - type: link
-    name: "The Most Popular Collection in the Postman API Network"
-    url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
+    name: "Most popular APIs in the Public API Network"
+    url: "https://blog.postman.com/most-popular-apis-in-the-public-api-network/"
   - type: link
     name: "Top 25 API Onboarding Experiences"
     url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Creating your first collection"
     url: "/docs/getting-started/creating-the-first-collection/"

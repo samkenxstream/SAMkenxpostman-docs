@@ -18,12 +18,12 @@ contextual_links:
     name: "Dynamically create custom environments with code"
     url: "https://youtu.be/6h2JiMfNU0A"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Dynamically Create Custom Environments with Code"
     url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Intro to scripts"
     url: "/docs/writing-scripts/intro-to-scripts/"

@@ -9,9 +9,9 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Build Custom Webhooks Using Postman"
     url: "https://blog.postman.com/postman-custom-webhooks/"
@@ -24,7 +24,7 @@ contextual_links:
     name: "Paylocity integrates custom webhooks with CI/CD tools"
     url: "https://www.postman.com/case-studies/paylocity/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Loves Slack"
     url:  "https://www.postman.com/postman/workspace/4be86d9c-6576-4369-b74f-43991df7a4bd"

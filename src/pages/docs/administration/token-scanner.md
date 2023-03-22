@@ -7,19 +7,19 @@ search_keyword: "password security, secret scanning, secret, API key security"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman Token Scanner | Postman Level Up"
     url: "https://youtu.be/9XxkqPQF-Rw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
     url: "https://blog.postman.com/2-big-improvements-to-the-postman-token-scanner/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Security"
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"

@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-updated: 2022-10-04
+updated: 2023-01-05
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -8,7 +8,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -23,7 +23,7 @@ contextual_links:
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
@@ -75,7 +75,7 @@ Use the following options to customize the appearance of the documentation:
 
 ## Viewing API documentation
 
-Postman automatically generates API docs for any OpenAPI 3.0 schema [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
+Postman automatically generates API docs for any OpenAPI 3.0 API [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
 
 To view documentation for an API, do the following:
 
@@ -85,7 +85,7 @@ To view documentation for an API, do the following:
 
 1. Select a documentation source on the API's overview:
 
-    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 3.0 schemas.)
+    * To view schema documentation, under **Definition**, select **View schema documentation**. (Schema documentation is available for OpenAPI 3.0 definitions.)
     * To view collection documentation, expand a collection and select **View full documentation**. To get sample code in a different language, select it in the **Language** menu.
 
 <img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10a.jpg" width="1106px">

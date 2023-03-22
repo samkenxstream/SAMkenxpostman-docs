@@ -8,19 +8,19 @@ contextual_links:
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman | Generate Server-Side Code"
     url: "https://youtu.be/n77FNEcTNEQ"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"

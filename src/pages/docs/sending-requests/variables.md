@@ -2,8 +2,7 @@
 title: "Using variables"
 order: 24
 page_id: "variables"
-updated: 2022-03-07
-search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get, JSON.stringify, JSON.parse, base_url, pm.globals.set, globals.set, pm.collectionVariables.set, collectionVariables.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.collectionVariables.get, collectionVariables.get, pm.environment.get, environment.get, pm.iterationData.get, iterationData.get"
+updated: 2023-02-14
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -11,7 +10,7 @@ contextual_links:
     name: "Sending requests"
     url:  "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,7 +26,7 @@ contextual_links:
     name: "Manage CLI Environment Variables | Postman Level Up"
     url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
@@ -40,7 +39,7 @@ contextual_links:
     name: "Paylocity uses variables to automate workflows"
     url: "https://www.postman.com/case-studies/paylocity/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
@@ -91,11 +90,11 @@ For example, if you have the same URL in more than one request, but the URL migh
 
 The same principle applies to any part of your request where data is repeated. Whatever value is stored in the variable will be included wherever you've referenced the variable when your requests run. If the base URL value is `https://postman-echo.com`, and is listed as part of the request URL using `{{base_url}}/get`, Postman will send the request to `https://postman-echo.com/get`.
 
-![Environment editor](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)
+![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg)
 
 <a href="https://assets.postman.com/postman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var-v9.jpg" width="300px"/></a>
 
-Variables in Postman are key-value pairs. Each variable name represents its key, so referencing the variable name allows you to access its value.
+Variables in Postman are key-value pairs. Each variable name represents its key, so referencing the variable name enables you to access its value.
 
 You can use variables to pass data between requests and tests, for example if you are [chaining requests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-81122f8b-5e07-4760-9504-f4387f45d2bc) in a collection.
 
@@ -110,13 +109,13 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 * **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping. In later development phases, use more specific scopes.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
 * **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
-* **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
+* **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) or the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
 * **Local variables** are temporary variables that are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
+![Variable scope](https://assets.postman.com/postman-docs/v10/var-scope-v10.jpg)
+
 > If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
-
-<!--  -->
-
+<!-- -->
 > Postman stores variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
 ## Variable types
@@ -135,20 +134,18 @@ To set the variable type to secret, do the following:
 1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look).
 1. For environment or global variables, select **Edit** to open the editor.
 
-    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-default-v9.13.jpg">
+    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-10.jpg">
 
     > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the sidebar, then selecting your environment.
 
 1. Select **default** next to the variable you want to change to open the dropdown, then select **secret** to update the variable type.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
-<img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-secret-v9.13.jpg">
-
 ### Changing from secret to default variable type
 
 You must have [Editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) to control variable type. Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
 
-<img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/environment-change-type-confirmation-v9.13.jpg" width="400px">
+<img alt="Confirm change of variable from secret" src="https://assets.postman.com/postman-docs/environment-change-type-confirmation-v9.13.jpg" width="400px">
 
 ### Viewing and changing secret variable values
 
@@ -258,7 +255,7 @@ To create or edit a variable for an existing collection, do the following:
 1. Select **Collections** in the sidebar.
 1. Select a collection, and then select the **Variables** tab.
 
-[![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)
+![Edit Collection](https://assets.postman.com/postman-docs/v10/collection-variables-v10-10.jpg)
 
 > If you don't have Editor access to a collection, you can select __Request Access__. Without Editor access, you won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
 
@@ -381,7 +378,7 @@ To view the results, select <img alt="Console icon" src="https://assets.postman.
 
 The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You can't set a data variable inside Postman because it's pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
 
-For more details, see [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
+For more details, see [working with data files](/docs/collections/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
 
 ## Sharing and persisting data
 
@@ -413,9 +410,9 @@ For more information on working with variables as a team, see [Managing environm
 
 An _unresolved variable_ is a variable that's not defined in an [active scope](#variable-scopes) (environment, collection, or globals) that's available for the request it’s used in.
 
-For example, for the request `https://postman-echo.com/get?customer_id={{cust_id}}`, Postman expects to be able to find a definition for `{{cust_id}}` in the environment the request uses, in the collection the request is saved in, or at the global level. If Postman doesn't find a definition for `{{cust_id}}` in one of those scopes, then it flags the variable as unresolved. If you send a request that includes an unresolved variable, the request might fail.
+For example, for the request `https://postman-echo.com/get?customer_id={{cust_id}}`, Postman expects to be able to find a definition for `{{cust_id}}` in the environment the request uses, in the collection the request is saved in, or at the global level. If Postman doesn't find a definition for `{{cust_id}}` in one of those scopes, it flags the variable as unresolved. If you send a request that includes an unresolved variable, the request might fail.
 
-A variable can be unresolved for a few reasons:
+A variable can be unresolved for the following reasons:
 
 * The variable isn't present in an [active scope](/docs/sending-requests/variables/#variable-scopes) for the request
 * The variable was created but the changes weren't saved

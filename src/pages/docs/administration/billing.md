@@ -6,7 +6,7 @@ tags:
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: link
     name: "Postman Pricing"
     url: "https://www.postman.com/pricing/"

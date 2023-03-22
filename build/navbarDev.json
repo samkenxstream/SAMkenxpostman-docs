@@ -43,22 +43,50 @@
         },
         {
             "title": "Enterprise",
+            "isWidthShort": true,
             "dropdown": "true",
-            "subItems": [
-                {
+            "columns": [
+              {
+                "title": "Learn more",
+                "subItemsCol": [
+                  {
                     "title": "Postman Enterprise",
                     "url": "https://www.postman.com/postman-enterprise/"
-                },
-                {
-                    "title": "Enterprise case studies",
-                    "url": "https://www.postman.com/case-studies/"
-                },
-                {
+                  },
+                  {
+                    "title": "Customers",
+                    "url": "https://www.postman.com/customers/"
+                  },
+                  {
                     "title": "Contact sales",
                     "url": "https://www.postman.com/company/contact-sales/"
-                }
+                  }
+                ]
+              },
+              {
+                "title": "Solutions",
+                "subItemsCol": [
+                  {
+                    "title": "Standardizing API testing",
+                    "url": "https://www.postman.com/solutions/standardizing-api-testing/"
+                  },
+                  {
+                    "title": "Building an API catalog",
+                    "url": "https://www.postman.com/solutions/building-an-api-catalog/"
+                  },
+                  {
+                    "title": "Partnering in Postman",
+                    "url": "https://www.postman.com/solutions/partnering-in-postman/"
+                  },
+                  {
+                    "title": "Launching API security and governance",
+                    "url": "https://www.postman.com/solutions/launching-api-security-governance-programs/"
+                  }
+                ]
+              }
             ]
-        },
+          },
+
         {
             "title": "Resources and support",
             "dropdown": "true",

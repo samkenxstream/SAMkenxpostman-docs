@@ -5,14 +5,14 @@ updated: 2022-12-15
 
 The [blocks](../blocks/) available in Postman Flows are described below.
 
-* [Data blocks](#data-blocks)
+* [Information blocks](#information-blocks)
 * [Trigger block](#trigger-block)
-* [Logic blocks](#logic-blocks)
+* [Decision blocks](#decision-blocks)
 * [Looping blocks](#looping-blocks)
-* [Tasks blocks](#tasks-blocks)
+* [Action blocks](#action-blocks)
 * [Output block](#output-block)
 
-## Data blocks
+## Information blocks
 
 ### Template
 
@@ -114,25 +114,27 @@ Emits the string that you enter.
 
 Used as the entry point for [running flows on the cloud](/docs/postman-flows/running-flows-on-the-cloud/webhooks/). Can be configured to hold test data for testing locally by selecting the gear icon and will act as a webhook endpoint that accepts data when running on the cloud.
 
-## Logic blocks
+## Decision blocks
 
 ### If
 
-<img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/updated-if-block.png" width="245px"/>
+<img alt="If block" src="https://assets.postman.com/postman-labs-docs/all-blocks/refactored-if-block.png" width="245px"/>
 
 <!-- vale Postman.Spelling = NO -->
-  Takes an input boolean and data, and takes a different branch depending on the result.
+  Takes any number of variables and data, and takes a different branch depending on the result of the FQL condition.
 
-  **True/False** - Takes in a bool value.
+  **Variables** - Named data or assigned values.
+
+  **Text entry block** - Freeform query using FQL that evalutes to true or false.
 
   **Data** - Receives data or an event from another block.
 
-  **Outputs** - Sends the data to either the True or False pathway depending on the value of the bool sent in the first connection.
+  **Outputs** - Sends the data to either the True or False pathway depending on the value of the FQL condition.
 <!-- vale Postman.Spelling = YES -->
 
 ### Evaluate
 
-<img alt="Evaluate block" src="https://assets.postman.com/postman-labs-docs/all-blocks/evaluate-block.png" width="318px"/>
+<img alt="Evaluate block" src="https://assets.postman.com/postman-labs-docs/all-blocks/updated-evaluate-block.png" width="318px"/>
 
 Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
 
@@ -180,7 +182,7 @@ Collects the results of a for loop, and outputs a list and an event when it has 
 
 **Finish** - Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
 
-## Tasks blocks
+## Action blocks
 
 ### Delay
 
@@ -220,3 +222,15 @@ Invokes a request in a collection.
 <img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
 
 Prints the input to the console.
+
+### Output
+
+<img alt="Output block" src="https://assets.postman.com/postman-labs-docs/all-blocks/output-block.png" width="249px"/>
+
+Displays the data passed through the port. The dropdown menu enables you to select from JSON, charts, tables, videos, images, and more. You can use **Output** blocks to:
+
+* Debug flows by viewing data directly on the canvas instead of opening the Postman console to view logs.
+* Create and display markdown, images, videos, and even YouTube embeds.
+* Create interactive dashboards using bar charts, line charts, tables, and more.
+
+For more information, see the [Building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/) tutorial.

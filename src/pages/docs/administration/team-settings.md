@@ -6,19 +6,22 @@ page_id: "team_settings"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Checklist for a Great Team Profile | Postman Level Up"
     url: "https://youtu.be/Ud_rq-VwO4s"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
+  - type: link
+    name: "Increase API adoption with improved team profiles"
+    url: "https://blog.postman.com/increase-api-adoption-with-improved-team-profiles/"
   - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Working with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"

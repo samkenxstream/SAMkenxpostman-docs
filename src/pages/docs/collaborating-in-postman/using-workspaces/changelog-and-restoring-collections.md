@@ -10,9 +10,9 @@ contextual_links:
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay On Top of Your Evolving Collections with Postman’s New Changelog"
     url: "https://blog.postman.com/stay-on-top-of-evolving-collections-postman-new-changelog/"
@@ -23,7 +23,7 @@ contextual_links:
 warning: false
 ---
 
-> **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Changelog is available on Postman paid plans.](https://www.postman.com/pricing/)**
 
 Each Postman Collection has a changelog that covers create, update, transfer, and delete events. You can use the changelog to keep track of updates you and other collaborators make to your private and team collections. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
 

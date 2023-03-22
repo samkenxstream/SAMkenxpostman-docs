@@ -9,9 +9,9 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
     url: "https://blog.postman.com/deployments-aws-api-gateway-integration/"

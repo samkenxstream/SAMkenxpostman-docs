@@ -8,14 +8,14 @@ contextual_links:
     name: "Intro to collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Postman’s AWS API Gateway Integration"
     url: "https://blog.postman.com/aws-api-gateway-integration-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Custom Webhooks"
     url: "/docs/integrations/webhooks/"

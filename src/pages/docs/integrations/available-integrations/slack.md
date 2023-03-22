@@ -8,7 +8,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -18,7 +18,7 @@ contextual_links:
     name: "How to Integrate with Slack Notifications | Postman"
     url: "https://youtu.be/v6eDhXWDJKE"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "slack"
   - type: subtitle
     name: "Case Studies"
@@ -26,7 +26,7 @@ contextual_links:
     name: "Radio Canada uses Postman's Slack integration for notifications"
     url: "https://www.postman.com/case-studies/radio-canada/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Loves Slack"
     url:  "https://www.postman.com/postman/workspace/4be86d9c-6576-4369-b74f-43991df7a4bd"

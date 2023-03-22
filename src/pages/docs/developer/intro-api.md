@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,18 +21,18 @@ contextual_links:
     name: "User Info from the Postman API | Postman Level Up"
     url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Filtering and Sorting APIs Using the Postman API"
     url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
   - type: link
-    name: "Introducing an API to Access Mock Server Call Logs"
-    url: "https://blog.postman.com/introducing-an-api-to-access-mock-server-call-logs/"
+    name: "Introducing an API to manage your Private API Network with more automation"
+    url: "https://blog.postman.com/introducing-api-to-manage-your-private-api-network-with-automation/"
   - type: link
     name: "Introducing APIs to Access and Manage Server-Level Responses on a Mock Server"
     url: "https://blog.postman.com/apis-to-access-manage-server-level-responses-mock-server/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman API"
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation"
@@ -40,10 +40,10 @@ contextual_links:
     name: "Postman Public Workspace"
     url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
+    url: "/docs/collections/using-newman-cli/continuous-integration/"
 
 warning: false
 
@@ -51,7 +51,7 @@ warning: false
 
 The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints enable you to integrate Postman within your development toolchain.
 
-You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/running-collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
+You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
 
 You can get started with the API by forking its collection. For more details, see the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 

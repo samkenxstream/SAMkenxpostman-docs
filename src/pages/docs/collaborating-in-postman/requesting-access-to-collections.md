@@ -13,14 +13,14 @@ contextual_links:
     name: "Defining roles"
     url: "/docs/collaborating-in-postman/roles-and-permissions/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Requesting Edit Access | Postman Level Up"
     url: "https://youtu.be/H-93OfONSsg"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "2 Ways to Access and Edit a Postman Element"
     url: "https://blog.postman.com/access-and-edit-postman-element/"
@@ -30,13 +30,15 @@ warning: false
 
 By default, you can view Postman elements in [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) that you share with your team. If you need to edit an element, such as a collection, API, environment, mock server, or monitor, you can request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access.
 
-To request Editor access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) that has the element. After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
+To request Editor access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) that has the element, or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
 
 > Roles and permissions are available depending on your [Postman plan](https://www.postman.com/pricing).
 
 ## Contents
 
 * [Requesting Editor role access](#requesting-editor-role-access)
+    * [Requesting Editor role access for an element](#requesting-editor-role-access-for-an-element)
+    * [Requesting Editor role access for a collection as an external user](#requesting-editor-role-access-for-a-collection-as-an-external-user)
 * [Approving requests for access](#approving-requests-for-access)
 
 ## Requesting Editor role access
@@ -45,7 +47,7 @@ If you can view an element in a workspace but can't edit it, there is a lock ico
 
 <img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v9-14.jpg" width="292px">
 
-To request Editor role access for an element, do the following:
+### Requesting Editor role access for an element
 
 1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the sidebar.
 
@@ -64,6 +66,20 @@ To request Editor role access for an element, do the following:
 1. Select **Request Access**.
 
 Postman will send an email notification to the person you selected. Once they approve your request, you will also get notified by email. Your request will expire after 15 days, after which you can request access again.
+
+### Requesting Editor role access for a collection as an external user
+
+You can request Editor role access for a collection if you're an [external user who is allowed to view the collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections). When you get Editor role access to a collection, your [team role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) also changes from the Guest role to the Developer role. This team role change adds you to the team and gives you access to all team resources and workspaces.
+
+1. Select **Collections** in the sidebar.
+1. Select the collection.
+1. Select **Request to Edit**.
+
+![Request Editor role](https://assets.postman.com/postman-docs/v10/guest-role-request-to-edit-v10.jpg)
+
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to give an external user Editor role access to a collection.
+
+Postman will send in-app and email notifications to team members with Editor role access to the collection.
 
 ## Approving requests for access
 

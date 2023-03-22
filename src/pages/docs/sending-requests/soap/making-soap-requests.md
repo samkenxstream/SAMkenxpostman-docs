@@ -8,14 +8,14 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Making HTTP SOAP Requests with Postman"
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Public SOAP APIs"
     url:  "https://www.postman.com/cs-demo/workspace/public-soap-apis/overview"

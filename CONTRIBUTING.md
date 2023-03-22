@@ -135,8 +135,8 @@ The right sidebar has a feature flag for pulling in up to three contextual, rece
 
 Two example docs using `dynamic_blog`:
 
-* `/docs/running-collections/intro-to-collection-runs.md`
-* `/docs/running-collections/scheduling-collection-runs.md`
+* `/docs/collections/running-collections/intro-to-collection-runs.md`
+* `/docs/collections/running-collections/scheduling-collection-runs.md`
 
 ### Using the dynamic blog posts feature
 
@@ -153,7 +153,7 @@ Open the doc file `.md` in which you want to edit the right sidebar, and look fo
 
 ~~~~
 - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
 - type: link
     name: "Check for broken links on your website using a Postman Collection"
     url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
@@ -163,7 +163,7 @@ Replace with:
 
 ~~~~
 - type: dynamic_blog
-name: "Blog Posts"
+name: "Blog posts"
 blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 
@@ -175,7 +175,7 @@ Open the doc file in which you want to edit the right sidebar, and add:
 
 ~~~~
 - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 

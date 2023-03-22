@@ -10,7 +10,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

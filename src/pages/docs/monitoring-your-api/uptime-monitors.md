@@ -5,9 +5,9 @@ page_id: "uptime_monitors"
 updated: 2022-08-03
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Postman’s API Uptime Monitor in Open Beta"
     url: "https://blog.postman.com/introducing-uptime-monitor/"

@@ -6,17 +6,17 @@ page_id: "buying"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: link
     name: "Postman Pricing"
     url: "https://www.postman.com/pricing/"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing 2021 Postman Plans and Pricing Updates"
     url: "https://blog.postman.com/announcing-postman-plans-and-pricing-2021/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Billing"
     url:  "/docs/administration/billing/"

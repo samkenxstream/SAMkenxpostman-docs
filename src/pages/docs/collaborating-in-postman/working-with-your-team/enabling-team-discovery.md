@@ -5,14 +5,14 @@ page_id: "enabling_team_discovery"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman 101 for Admins | Webinar"
     url: "https://youtu.be/d6pw-0Yy5fs"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"

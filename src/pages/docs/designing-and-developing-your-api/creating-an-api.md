@@ -8,7 +8,7 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,7 +27,7 @@ contextual_links:
     name: "OpenAPI 3.0: From Idea to Implementation"
     url: "https://www.youtube.com/live/JEBd78U9aBo?feature=share"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"

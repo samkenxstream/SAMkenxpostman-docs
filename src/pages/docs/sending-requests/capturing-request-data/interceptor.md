@@ -11,14 +11,14 @@ contextual_links:
     name: "Capturing HTTP requests"
     url: "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman Interceptor Demo"
     url: "https://youtu.be/Swjims0aOl4"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"

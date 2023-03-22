@@ -3,9 +3,9 @@ title: "Security warnings"
 updated: 2022-07-20
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing API Security in Postman v10"
     url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"

@@ -70,7 +70,7 @@ class EditDoc extends Component {
           </svg> */}
         </SvgWrapper>
         <EditbuttonStyle>
-          Edit this Doc
+          Edit This Doc
         </EditbuttonStyle>
       </BaseButton>
     );

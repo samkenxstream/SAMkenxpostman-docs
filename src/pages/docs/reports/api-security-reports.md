@@ -8,9 +8,9 @@ contextual_links:
     name: "API Governance and API Security in Postman"
     url: "/docs/api-governance/api-governance-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"

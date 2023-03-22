@@ -14,7 +14,7 @@ contextual_links:
     name: "Using variables"
     url: "/docs/sending-requests/variables/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -30,7 +30,7 @@ contextual_links:
     name: "Testing with Snippets | Postman Level Up"
     url: "https://youtu.be/QGNJ0wh5Ry0"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Autocomplete Now Available in Postman Script Editor"
     url: "https://blog.postman.com/postman-script-editor-autocomplete/"
@@ -46,12 +46,12 @@ contextual_links:
     name: "Paylocity uses scripts to automate workflows"
     url: "https://www.postman.com/case-studies/paylocity/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Answers"
     url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Test scripts"
     url: "/docs/writing-scripts/test-scripts/"

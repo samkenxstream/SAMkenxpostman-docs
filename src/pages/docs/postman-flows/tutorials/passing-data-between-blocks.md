@@ -2,6 +2,14 @@
 title: "Passing data between blocks"
 updated: 2023-01-18
 warning: false
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Postman Flows is now more powerful and user-friendly"
+    url: "https://blog.postman.com/postman-flows-is-now-more-powerful-and-user-friendly/"
 ---
 
 Postman Flows can get data with [API requests](/docs/getting-started/sending-the-first-request/) or directly from the **Start** block. This tutorial shows examples of Postman Flows getting data using both methods and passing data between blocks.

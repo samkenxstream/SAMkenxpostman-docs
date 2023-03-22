@@ -12,14 +12,14 @@ contextual_links:
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Unboxing What’s New in Postman v10 | Postman Intergalactic"
     url: "https://youtu.be/LmEl7rHYhxU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing Postman v10: The API Platform for an API-First World"
     url: "https://blog.postman.com/announcing-postman-v10/"

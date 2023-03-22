@@ -13,14 +13,14 @@ contextual_links:
     name: "Sharing your work"
     url: "/docs/collaborating-in-postman/sharing/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Forking + Merging: A Conflict Resolution Solution"
     url: "https://blog.postman.com/forking-merging-a-conflict-resolution-solution/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Troubleshooting requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"

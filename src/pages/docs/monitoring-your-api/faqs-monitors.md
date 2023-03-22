@@ -30,7 +30,7 @@ Your monitor's time zone is automatically set to the time zone of your computer 
 
 ### How long can a monitor run?
 
-Collection-based monitors are limited to a maximum of 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans) for each run. All HTTP requests, responses, pre-request scripts, and test scripts must complete within the time limit or the monitor will time out.
+Collection-based monitors are limited to a maximum of 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans) for each run. All HTTP requests, responses, pre-request scripts, and test scripts must complete within the time limit or the monitor will time out.
 
 ### How do I persist variables between monitor runs?
 
@@ -38,7 +38,7 @@ You can't import existing global variables into a monitor, but you can create ne
 
 ### How many HTTP requests can a monitor send?
 
-Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
+Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
 
 ### Can I run a request multiple times?
 
@@ -46,11 +46,11 @@ Collection-based monitors only run one iteration by default, but you can use `se
 
 ### How much data can a monitor send or receive?
 
-There is no specific limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. Make sure that all requests can be completed within the time limit of 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
+There is no specific limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. Make sure that all requests can be completed within the time limit of 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
 
 ### Can I upload data files or attach files to a monitor?
 
-You can upload a data file with sets of values to use as variable inputs when running the monitor, similar to the [collection runner](/docs/running-collections/working-with-data-files/). Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON). Learn more about [uploading a data file for a monitor](/docs/monitoring-your-api/setting-up-monitor/#uploading-a-data-file).
+You can upload a data file with sets of values to use as variable inputs when running the monitor, similar to the [collection runner](/docs/collections/running-collections/working-with-data-files/). Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON). Learn more about [uploading a data file for a monitor](/docs/monitoring-your-api/setting-up-monitor/#uploading-a-data-file).
 
 Because monitors run in the Postman cloud, you can't attach form data or binary files to requests like you can in the [request builder](https://learning.postman.com/docs/sending-requests/requests/#form-data). Instead, you can add [raw data](https://learning.postman.com/docs/sending-requests/requests/#raw-data) on the request's **Body** tab to send JSON or other text data with the request.
 
@@ -94,4 +94,4 @@ Because monitors run in the Postman cloud, all URLs must be publicly available o
 
 ### Will monitors impact my API performance?
 
-To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. Postman also restricts each monitor’s total runtime to 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans). This limits the number of requests the monitor can perform.
+To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. Postman also restricts each monitor’s total runtime to 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans). This limits the number of requests the monitor can perform.

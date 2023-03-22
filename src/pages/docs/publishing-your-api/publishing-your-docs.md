@@ -8,14 +8,14 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Public API Network Is Now the World’s Largest Public API Hub"
     url: "https://blog.postman.com/postman-public-api-network-is-now-the-worlds-largest-public-api-hub/"

@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -23,12 +23,12 @@ contextual_links:
     name: "Generate a Run in Postman Button | Postman Level Up"
     url: "https://www.youtube.com/watch?v=r2DGy4jSuUE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=8"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing the All-New Run in Postman Button"
     url: "https://blog.postman.com/new-run-in-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Generating API documentation"
     url: "/docs/publishing-your-api/documenting-your-api/"
@@ -68,7 +68,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 1. You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
 1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
-    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)
+    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg)
 
     Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 

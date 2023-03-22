@@ -10,9 +10,9 @@ contextual_links:
     name: "Setting up Postman"
     url: "/docs/getting-started/settings/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Encryption, SSL/TLS, and Managing Your Certificates in Postman"
     url: "https://blog.postman.com/encryption-ssl-tls-and-managing-your-certificates-in-postman/"

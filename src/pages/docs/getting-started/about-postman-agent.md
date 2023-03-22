@@ -3,14 +3,14 @@ title: "About the Postman Agent"
 updated: 2022-12-06
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
@@ -33,7 +33,7 @@ Postman has three different agents you can use to send your API requests.
 
 ### The Postman Desktop Agent
 
-The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+The Postman Desktop Agent is a micro-application that runs locally on your desktop. It enables you to bypass the limitations that exist in the browser by allowing API requests to originate in the browser, but be routed through your local machine and network. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 In the [agent selector](#selecting-a-postman-agent-for-requests), you will be prompted to download and install the Desktop Agent so you can make requests from the Postman web app. Select **Download desktop agent** to download the Desktop Agent. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed, open it and then you will be able to use it with web requests.
 

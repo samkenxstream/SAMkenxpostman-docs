@@ -8,14 +8,14 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
@@ -125,15 +125,15 @@ To run a monitor again after a failure or error, select the **Retry if run fails
 
 ### Adding request timeouts
 
-You can choose to **Set request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, each monitor run has a timeout of 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans). These timeout values apply to the entire monitor run, including all HTTP requests, responses, pre-request scripts, and test scripts.
+You can choose to **Set request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, each monitor run has a timeout of 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans). These timeout values apply to the entire monitor run, including all HTTP requests, responses, pre-request scripts, and test scripts.
 
-> For Postman Free plans, monitor timeout can't exceed 10 minutes (600000 ms). For Postman Basic, Professional, and Enterprise plans, monitor timeout can't exceed 15 minutes (900000 ms)
+> For Postman Free plans, monitor timeout can't exceed 10 minutes (600000 ms). For Postman paid plans, monitor timeout can't exceed 15 minutes (900000 ms)
 
 ### Adding delays between requests
 
 Enabling **Set delay between requests** will insert a delay between all requests in your collection. To configure the delay for individual requests, you can add a delay in your [pre-request or test scripts](/docs/writing-scripts/intro-to-scripts/) using `setTimeout()`.
 
-> For Postman Free plans, the delay between requests can't exceed 10 minutes (600000 ms). For Postman Basic, Professional, and Enterprise plans, the delay between requests can't exceed 15 minutes (900000 ms). Note that these values are the same as the maximum runtime for a monitor.
+> For Postman Free plans, the delay between requests can't exceed 10 minutes (600000 ms). For Postman paid plans, the delay between requests can't exceed 15 minutes (900000 ms). Note that these values are the same as the maximum runtime for a monitor.
 
 ### Managing redirect behavior
 

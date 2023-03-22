@@ -13,7 +13,7 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Public gRPC APIs"
     url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"
@@ -69,4 +69,4 @@ Once the method is invoked, the server processes the information passed and retu
 
 Try invoking some other methods available on the gRPC bin server and see how things act differently.
 
-When you’re done, learn more about [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).
+When you’re done, learn more about [using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).

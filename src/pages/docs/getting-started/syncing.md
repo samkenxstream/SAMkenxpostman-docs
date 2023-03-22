@@ -10,7 +10,7 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"

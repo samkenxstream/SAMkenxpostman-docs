@@ -11,7 +11,7 @@ contextual_links:
     name: "Test script examples"
     url: "/docs/writing-scripts/script-references/test-examples/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,12 +21,12 @@ contextual_links:
     name: "Data Encryption with CryptoJS"
     url: "https://youtu.be/W_Gj1Q0lEOU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Adding External Libraries in Postman"
     url: "https://blog.postman.com/adding-external-libraries-in-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Developing with Postman utilities"
     url: "/docs/developer/resources-intro/"
@@ -308,7 +308,7 @@ pm.globals.clear():function
 
 #### Using data variables in scripts
 
-Your scripts can use the `pm.iterationData` methods to access and manipulate variables from [data files during a collection run](/docs/running-collections/working-with-data-files/).
+Your scripts can use the `pm.iterationData` methods to access and manipulate variables from [data files during a collection run](/docs/collections/running-collections/working-with-data-files/).
 
 * Check whether a variable with the specified name exists in the current iteration data:
 
@@ -467,7 +467,7 @@ The `pm.info` object provides the following properties and methods:
 pm.info.eventName:String
 ```
 
-* The value of the current [iteration](/docs/running-collections/intro-to-collection-runs/):
+* The value of the current [iteration](/docs/collections/running-collections/intro-to-collection-runs/):
 
 ```js
 pm.info.iteration:Number
@@ -636,7 +636,7 @@ See the [Request definition](http://www.postmanlabs.com/postman-collection/Reque
 
 ## Scripting workflows
 
-The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/running-collections/building-workflows/) or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+The `postman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/collections/running-collections/building-workflows/) or [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
 
 > Note that `setNextRequest` has no effect when you run requests using **Send**; it only has an effect when you run a collection.
 

@@ -47,7 +47,7 @@ Monitor usage is calculated based on the number of monitoring API calls:
 * If the collection used by the monitor has multiple requests, each request in the collection counts as one API call.
 * If the monitor is scheduled to run in multiple regions, each request made in a different region counts as an API call.
 
-> If you use `postman.setNextRequest()` to [skip a request or run a request multiple times](/docs/running-collections/building-workflows/), Postman adjusts monitor usage accordingly. Postman also counts any requests required for [authorization](/docs/sending-requests/authorization/).
+> If you use `postman.setNextRequest()` to [skip a request or run a request multiple times](/docs/collections/running-collections/building-workflows/), Postman adjusts monitor usage accordingly. Postman also counts any requests required for [authorization](/docs/sending-requests/authorization/).
 
 ## Allowing monitor overages
 

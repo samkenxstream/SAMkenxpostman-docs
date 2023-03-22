@@ -6,9 +6,9 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -17,13 +17,16 @@ contextual_links:
   - type: link
     name: "View Postman CLI Runs in Postman | Postman Level Up"
     url: "https://youtu.be/YTzlLLtsJls"
+  - type: link
+    name: "How We Built It: The Postman CLI"
+    url: "https://www.youtube.com/live/mpMZTodbbnA?feature=share"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing the New Postman CLI to Automate Your API Testing"
     url: "https://blog.postman.com/introducing-the-postman-cli-to-automate-your-api-testing/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"

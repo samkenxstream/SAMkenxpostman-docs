@@ -12,9 +12,9 @@ contextual_links:
     name: "Documenting your API"
     url: "/docs/publishing-your-api/documenting-your-api/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Postman’s WYSIWYG Editing Experience"
     url: "https://blog.postman.com/introducing-postmans-wysiwyg-editing-experience/"
@@ -27,7 +27,7 @@ contextual_links:
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"

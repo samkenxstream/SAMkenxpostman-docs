@@ -1,6 +1,6 @@
 ---
 title: "Postman Flows overview"
-updated: 2022-11-17
+updated: 2023-03-22
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -8,9 +8,14 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
+  - type: link
+    name: "AI Powered Sentiment Analysis with Postman Flows and ChatGPT"
+    url: "https://www.youtube.com/live/0kAQb3Q4WCQ?feature=share"
+  - type: subtitle
+    name: "Blog posts"
   - type: link
     name: "Announcing Postman Flows Early Access"
     url: "https://blog.postman.com/announcing-postman-flows-early-access/"
@@ -21,76 +26,43 @@ contextual_links:
     url: "https://www.postman.com/case-studies/built/"
 ---
 
-_Postman Flows_ is a visual tool for creating API workflows. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
+_Postman Flows_ is a visual tool to build API-driven applications – a tool to build software for the API-First world. You can use flows to chain requests, handle data, and create real-world workflows in your Postman workspace.
 
-The following topics will help you get started or learn about core concepts of Postman Flows.
+![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 
-## Contents
+## What is Postman Flows?
 
-* [Quick start](#quick-start)
-* [Blocks](#blocks)
-* [Messages](#messages)
-* [Contribute](#contribute)
+Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
+
+It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your flows.
+
+You can also deploy your flows and run them in the cloud. WebHooks enable you to integrate with other applications.
+
+## What can you do with flows?
+
+Flows are the ultimate way to easily take data from an API-enabled product, manipulate it to meet your needs, and see the results. Or you could
+take data from one API-enabled product, make decisions or process the data, then send it to another API-enabled product. This means you can build real-time integrations between two API-enabled products.
+
+Check out our Flows Workspaces filled with examples:
+
+* [Business Flows](https://www.postman.com/postman/workspace/business-flows)
+* [Integration Flows](https://www.postman.com/postman/workspace/integration-flows)
+* [Natural Language Processing (NLP) Flows](https://www.postman.com/postman/workspace/natural-language-processing-nlp-flows)
+* [Slack Integration Flows](https://www.postman.com/postman/workspace/slack-integration-flows)
+* [DevOps Flows](https://www.postman.com/postman/workspace/devops-flows)
+* [Utility Flows](https://www.postman.com/postman/workspace/utility-flows)
+* [Miscellaneous Flows](https://www.postman.com/postman/workspace/miscellaneous-flows)
+
+These workspaces contains example flows utilizing a multitude of APIs for different products and tools, plus all the related collections and environments needed. You can fork the flows to your own workspace, try them out, and then make your own changes and customizations.
+
+> Postman Flows is free to use for up to three users in our Free plan. Postman Flows is available as an add-on on our [Professional plan](https://www.postman.com/pricing/).
 
 ## Quick start
 
-* [Step-by-step guide to building your first flow](/docs/postman-flows/tutorials/building-your-first-flow/)
-* [Running requests in sequence](/docs/postman-flows/tutorials/running-requests-in-sequence/)
-* [Passing data between blocks](/docs/postman-flows/tutorials/passing-data-between-blocks/)
+To get started, check out the following resources:
 
-## Blocks
-
-Blocks are the basic units used to create a flow. Every block has a specific purpose, such as performing tasks, creating data, transforming data, and much more.
-
-### Block fundamentals
-
-Every block has either an input, an output, or both. You can pass a message packet from one block to another. Blocks can perform tasks, have values, or run an operation. For more information on each block, see [Types of Blocks](#types-of-blocks).
-
-> A block isn't a function but a process.
-
-### Block anatomy
-
-![Block anatomy](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
-
-1. **Name** - Name of the block.
-
-2. **Request to run** - Which request from your collection is going to be run.
-
-3. **Send event input** - Starts running the block when this port receives an input.
-
-4. **Environment** - Which Postman environment to use.
-
-5. **Body Type** - Schema the request uses.
-
-6. **Variables** - The variables that are either provided in the flow or from the environment.
-
-7. **Success** - When the block returns a successful status code it emits the response data.
-
-8. **Failure** - When the block returns an unsuccessful status code it emits the response data.
-
-### Types of blocks
-
-There are three types of blocks:
-
-* **Task blocks** perform a particular asynchronous task.
-* **Data blocks** create data of a specific type.
-* **Logic blocks** perform actions on data to transform them. These are synchronous in nature.
-
-## Messages
-
-A _message_ is a single packet of data. A message could be a string or number, or it could be a large complex data structure like a list of users, or an entire movie.
-
-Data structures like lists can also be converted to streams which can be processed by blocks asynchronously.
-
-> When a message flows from one block to another, the actual data doesn't move but a pointer to the message is passed along.
-
-<!-- vale Postman.Spelling = NO -->
-<!-- vale Postman.Weasel = NO -->
-Postman Flows is a dataflow language, which means it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
-<!-- vale Postman.Weasel = YES -->
-<!-- vale Postman.Spelling = YES -->
-
-Because most flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
+* [Step-by-step guide to building your first Flow](/docs/postman-flows/tutorials/building-your-first-flow/)
+* [Flows Snippets: an example for every block](https://www.postman.com/postman/workspace/flows-snippets)
 
 ## Contribute
 

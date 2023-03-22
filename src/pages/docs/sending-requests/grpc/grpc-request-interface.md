@@ -21,7 +21,7 @@ contextual_links:
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10.jpg" alt="gRPC request interface" />
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-2-v10.jpg" alt="gRPC request interface" />
 
 ## Contents
 
@@ -116,7 +116,6 @@ To invoke a bidirectional streaming method, select the method from the **Method 
 Once you invoke a method, the server gives back the appropriate response that appears in the response area.
 
 <!--TODO: image with callouts, with Postman echo service shown -->
-
 The response section has the following items:
 
 * **Response** - A response payload has three types of information:
@@ -126,6 +125,8 @@ The response section has the following items:
     * **Metadata (Initial) and Trailing metadata** - Metadata returned by the server typically consists of information about the execution.
 
 * **More information** - This section gives you key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
+
+* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/examples/). For streaming methods, you must end streaming before you can save an example. See [Using gRPC examples](/docs/sending-requests/grpc/using-grpc-examples/) to learn more.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 

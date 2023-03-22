@@ -8,19 +8,19 @@ contextual_links:
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Observability for APIs | Postman Intergalactic"
     url: "https://youtu.be/Wkng1VXQAaU"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing and sharing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"

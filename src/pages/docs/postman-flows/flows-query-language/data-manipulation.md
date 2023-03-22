@@ -1,6 +1,6 @@
 ---
 title: "Manipulating data"
-updated: 2023-01-12
+updated: 2023-02-14
 ---
 
 You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
@@ -37,9 +37,6 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Raise a number to a power](#raise-a-number-to-a-power)
 * [Get the square root of a number](#get-the-square-root-of-a-number)
 * [Convert a number to hex or binary](#convert-a-number-to-hex-or-binary)
-* [Format a number with decimals and dollar sign](#format-a-number-with-decimals-and-dollar-sign)
-* [Convert a number into words](#convert-a-number-into-words)
-* [Convert words into a number](#convert-words-into-a-number)
 * [Generate a new random invoice number](#generate-a-new-random-invoice-number)
 * [Convert a number into a string](#convert-a-number-into-a-string)
 
@@ -56,6 +53,12 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Get the current time in Unix milliseconds since the epoch](#get-the-current-time-in-unix-milliseconds-since-the-epoch)
 * [Convert from a specific date format into Unix epoch time](#convert-from-a-specific-date-format-into-unix-epoch-time)
 * [Convert from Unix epoch time into a specific date format](#convert-from-unix-epoch-time-into-a-specific-date-format)
+* [Get the day/month/year from a date](#get-the-daymonthyear-from-a-date)
+* [Get the time from a date](#get-the-time-from-a-date)
+* [Get the day of the week from a date](#get-the-day-of-the-week-from-a-date)
+* [Compare two dates](#compare-two-dates)
+* [Increase a date by one day](#increase-a-date-by-one-day)
+* [Get the difference betwen two dates](#get-the-difference-betwen-two-dates)
 * [Time and Date formatting](#time-and-date-formatting)
 
 ### Working with logic and arrays
@@ -487,54 +490,6 @@ $formatBase(3000, 16)
 "bb8"
 ```
 
-## Format a number with decimals and dollar sign
-
-The `$formatNumber()` function formats the given number with a dollar sign and two decimal places.
-
-### FQL
-
-``` javascript
-$formatNumber(4593, '$#,###.00')
-```
-
-### Result
-
-``` json
-"$4,593.00"
-```
-
-## Convert a number into words
-
-The `$formatInteger` function converts numbers into their written-out forms or roman numerals. The example below converts the number `493840` into the string "four hundred and ninety-three thousand, eight hundred and forty". Using `I` instead of `w` in the example below would return roman numerals instead of words.
-
-### FQL
-
-``` javascript
-$formatInteger(493840, 'w')
-```
-
-### Result
-
-``` json
-"four hundred and ninety-three thousand, eight hundred and forty"
-```
-
-## Convert words into a number
-
-The `$parseInteger` function converts written-out numbers or roman numerals into numeric values. The example below converts the string "four hundred and ninety-three thousand, eight hundred and forty" into the number `493840`. Using `I` instead of `w` in the example below would convert roman numerals instead of words.
-
-### FQL
-
-``` javascript
-$parseInteger("four hundred and ninety-three thousand, eight hundred and forty", 'w')
-```
-
-### Result
-
-``` json
-493840
-```
-
 ## Generate a new random invoice number
 
 The `$round($random())` function generates a random whole number. The example below generates a random whole number between 1 and 1000 and returns the number appended to the string "Invoice number ".
@@ -693,6 +648,102 @@ $fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
 
 ``` json
 "2018-10-12 23:39:00 GMT+00:00"
+```
+
+## Get the day/month/year from a date
+
+The `$year()`, `$month()`, and `$day()` functions return their respective components from a year-month-day date format.
+
+### FQL
+
+``` javascript
+$year('2023-02-11') & '-' & $month('2023-02-11') & '-' & $day('2023-02-11')
+```
+
+### Result
+
+``` json
+"2023-2-11"
+```
+
+## Get the time from a date
+
+The `$hours()`, `$minutes()`, `$seconds()`, and `$milliseconds()` functions return their respective values from a given date. The example below uses the `$now()` function for the date.
+
+### FQL
+
+``` javascript
+$hours($now()) & ':' & $minutes($now()) & ':' & $seconds($now()) & ':' & $milliSeconds($now())
+```
+
+### Result
+
+``` json
+"19:23:8:143"
+```
+
+## Get the day of the week from a date
+
+The `$dayOfTheWeek()` function accepts a date and returns a number corresponding to a day of the week. `0` is Sunday, `1` is Monday, and so on.
+
+### FQL
+
+``` javascript
+$dayOfTheWeek($now())
+```
+
+### Result
+
+``` json
+2
+```
+
+## Compare two dates
+
+The `$hasSameDate()` function accepts two or more dates with parameters specifying values in the dates. The function compares the values specified by the parameters and returns `true` if they are identical, or `false` if they are not.
+
+### FQL
+
+``` javascript
+$hasSameDate('2023-02-01', '2023-02-08', ['month', 'year'])
+```
+
+### Result
+
+``` json
+true
+```
+
+## Increase a date by one day
+
+The `$datePlus()` function accepts a date (formatted as `YYYY-MM-DD` or milliseconds since epoch), the number of units you want to add, and the date component you want to advance (`years`, `months`, `days`, `hours`, `minutes`, `seconds`, or `milliseconds`). The function returns the increased date as milliseconds since epoch.
+
+### FQL
+
+``` javascript
+$datePlus('2023-02-07', 1, 'days')
+```
+
+### Result
+
+``` json
+1675814400000
+```
+
+## Get the difference betwen two dates
+
+The `$diffDate()` function accepts two dates (formatted as `YYYY-MM-DD` or milliseconds since epoch) and a component of each date (`years`, `months`, `days`, `hours`, `minutes`, `seconds`, or `milliseconds`), then returns the difference between the two dates' component.
+
+### FQL
+
+``` javascript
+$diffDate('2023-02-08', '2023-01-22', 'days')
+```
+
+### Result
+
+``` json
+17
 ```
 
 ## Time and date formatting

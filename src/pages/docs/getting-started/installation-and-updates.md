@@ -1,6 +1,6 @@
 ---
 title: "Installing and updating Postman"
-updated: 2022-09-02
+updated: 2023-02-02
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -8,7 +8,7 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -18,7 +18,7 @@ contextual_links:
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Announcing Postman v10: The API Platform for an API-First World"
     url: "https://blog.postman.com/announcing-postman-v10/"
@@ -26,7 +26,7 @@ contextual_links:
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
@@ -109,13 +109,13 @@ Type=Application
 Categories=Development;
 ```
 
-> Postman supports the following distributions on x86-64 hardware:
+> Postman supports the following Linux distributions:
 >
 > * Ubuntu 14.04 and newer
 > * Fedora 24
 > * Debian 8 and newer
 >
-> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
+> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
 >
 > It's recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they're bundled with the app itself.
 >
@@ -142,7 +142,7 @@ The Postman web app is optimized for the following browsers:
 
 ### Installing the Postman Desktop Agent
 
-If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
+If you are using the Postman web app, Postman recommends downloading and installing the [Postman Desktop Agent](/docs/getting-started/about-postman-agent/#the-postman-desktop-agent), a micro-application that runs locally on your desktop. The Desktop Agent overcomes the cross-origin resource sharing (CORS) limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
 ### Web limitations
 
@@ -189,14 +189,30 @@ Alternatively, if you don't want to sign in to your Postman account, you can bul
 
 ## Using Postman behind a firewall
 
-Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you will need to allow the following domains to make WebSocket connections for Postman:
+Postman's infrastructure runs on Amazon's AWS platform. If you are operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
 
 * `\*.getpostman.com`
 * `\*.postman.co`
 * `\*.pstmn.io`
 * `\*postman.com`
 
-By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
+By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
+
+Postman web app - websocket connections:
+
+* `https://bifrost-web-v10.gw.postman.com`
+* `https://bifrost-web-public-v10.gw.postman.com`
+* `https://bifrost-web-v10.gw.postman.co`
+
+Postman desktop app - websocket connections:
+
+* `https://bifrost-v10-global.gw.postman.com`
+* `https://bifrost-premium-v10-global.gw.postman.com`
+
+Postman desktop app - HTTP connections:
+
+* `https://bifrost-https-v10.gw.postman.com`
+* `https://bifrost-premium-https-v10.gw.postman.com`
 
 Postman doesn't have a fixed IP range that can be provided. If necessary, refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 

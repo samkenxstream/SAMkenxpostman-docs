@@ -10,16 +10,16 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Continuous Integration"
-    url: "/docs/running-collections/using-newman-cli/continuous-integration/"
+    url: "/docs/collections/using-newman-cli/continuous-integration/"
 
 warning: false
 
 ---
 
-The Postman Runtime library supports request sending and [collection running](/docs/running-collections/intro-to-collection-runs/) in Postman as well as in other interfaces including [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+The Postman Runtime library supports request sending and [collection running](/docs/collections/running-collections/intro-to-collection-runs/) in Postman as well as in other interfaces including [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ## Contents
 
@@ -60,10 +60,10 @@ function (err, run) {
 
 You can use the Runtime library if you need a detailed configuration of your request runs, for example as part of an automation workflow to integrate Postman Collection runs into your development pipeline.
 
-> Note that if you only need to run collections, you can use [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line tool.
+> Note that if you only need to run collections, you can use [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line tool.
 
 ## Next steps
 
 Now that you've gotten started with the Runtime library, you might also want to use the Postman API in your continuous integration and continuous deployment (CI/CD) workflow:
 
-* To learn more about incorporating Postman into your CI/CD workflow, visit [CI with Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).
+* To learn more about incorporating Postman into your CI/CD workflow, visit [CI with Postman API](/docs/collections/using-newman-cli/continuous-integration/).

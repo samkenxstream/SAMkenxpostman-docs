@@ -14,7 +14,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,12 +24,12 @@ contextual_links:
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Shifting Left with Postman"
     url: "https://blog.postman.com/shifting-left-with-postman/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Test scripts"
     url: "/docs/writing-scripts/test-scripts/"

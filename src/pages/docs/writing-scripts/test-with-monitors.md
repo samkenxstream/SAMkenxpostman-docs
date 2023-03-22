@@ -11,27 +11,27 @@ contextual_links:
     name: "Monitoring your APIs"
     url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"
     url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman API Monitoring Examples"
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
+    url: "/docs/collections/running-collections/intro-to-collection-runs/"
 
 warning: false
 ---

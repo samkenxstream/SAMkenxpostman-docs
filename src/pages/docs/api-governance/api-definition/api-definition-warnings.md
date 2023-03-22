@@ -3,24 +3,24 @@ title: "Rule violations in the API definition"
 updated: 2022-07-20
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Security and Governance Rules for API Definitions | Postman Level Up"
     url: "https://youtu.be/jphqpbTEDCY"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing API Security in Postman v10"
     url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Security"
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "OpenAPI 3.0 rules"
     url: "/docs/api-governance/api-definition/openapi3/"

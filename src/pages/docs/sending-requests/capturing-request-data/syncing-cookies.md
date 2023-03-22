@@ -9,7 +9,7 @@ contextual_links:
     name: "Using cookies"
     url: "/docs/sending-requests/cookies/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     name: "Postman Interceptor Demo"
     url: "https://youtu.be/Swjims0aOl4"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
     url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"

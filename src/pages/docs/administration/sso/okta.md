@@ -57,7 +57,7 @@ To continue configuring your Postman app, do the following:
 
     ![Edit sign on method settings](https://assets.postman.com/postman-docs/v10/okta-edit-saml-settings-v10.jpg)
 
-1. Select **View SAML setup instructions** to display SAML configuration instructions, including the Identity Provider details.
+1. Select **View SAML setup instructions** to display SAML configuration instructions, including the identity provider (IdP) details.
 
     ![View identity provider details](https://assets.postman.com/postman-docs/v10/okta-view-saml-setup-v10-2.jpg)
 
@@ -93,7 +93,7 @@ To continue configuring your custom SAML application, do the following:
 
 1. In the **Feedback** tab, select **I'm an Okta customer adding an internal app**. Select **This is an internal app that we have created** as the app type, and then select **Finish**.
 
-1. Select the **Sign On** tab, and then select **View SAML setup instructions** to display the Identity Provider details.
+1. Select the **Sign On** tab, and then select **View SAML setup instructions** to display the IdP details.
 
     ![View identity provider details](https://assets.postman.com/postman-docs/v10/okta-view-custom-saml-setup-v10.jpg)
 

@@ -14,25 +14,30 @@ contextual_links:
     name: "Requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman | Authorize a Request"
     url: "https://youtu.be/7t9AB9Opprs"
   - type: link
-    name: "Inheriting Auth Details | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+    name: "How to Use JWT Authorization"
+    url: "https://youtu.be/dLxCpd3IGys"
   - type: link
     name: "Automatically Refresh OAuth2.0 Access Tokens | Postman Level Up"
     url: "https://www.youtube.com/watch?v=FAhs9TBK-xU"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "OAuth 2.0 just got easier: introducing token refresh and ID token support"
+    url: "https://blog.postman.com/oauth-2-0-token-refresh-and-id-token-support/"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Intuit uses Postman's authentication protocols"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Troubleshooting your Requests"
     url: "/docs/sending-requests/troubleshooting-api-requests/"
@@ -53,6 +58,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [No auth](#no-auth)
     * [API key](#api-key)
     * [Bearer token](#bearer-token)
+    * [JWT bearer](#jwt-bearer)
     * [Basic auth](#basic-auth)
     * [Digest auth](#digest-auth)
     * [OAuth 1.0](#oauth-10)
@@ -128,6 +134,30 @@ Bearer <Your API key>
 ```
 
 > If a custom prefix is needed, use an [API Key](#api-key) with a key of __Authorization__.
+
+### JWT bearer
+
+Postman also supports generating JWT bearer tokens to authorize requests. You can enter a payload in an editor, and JWT tokens are generated and added to the request. In the request __Authorization__ tab, select __JWT Bearer__ from the __Type__ dropdown list.
+
+* **Add JWT token to** -  Select **Request Header** or **Query Param** to specify how the JWT token will be added to your request.
+* **Algorithm** - Select an algorithm to use for the JWT token. Supported algorithms include:
+
+    * **HS** - HMAC with SHA
+    * **RS** - RSA (RSASSA-PKCS1-v1_5) with SHA
+    * **ES** - ECDSA with SHA
+    * **PS** - RSA (RSASSA-PSS) with SHA
+
+* **Secret** - The secret that’s used with the HMAC-SHA algorithm.
+* **Secret Base64 encoded** - If the secret is encoded in the base-64 format.
+* **Private key** - The private key for signing the token for RS, ES, and PS algorithms. Select **Select file** to upload a private key in PKCS #8 format.
+
+* **Payload** - Enter the payload data for your JWT token, in JSON format.
+
+In the Advanced configuration section, you can also configure the following items. If you don't configure them, they are generated automatically.
+
+* **Header prefix** - An optional prefix to use at the start of headers. This header prefix is part of the request and not a part of JWT.
+
+* **Headers** - Any custom headers you also want to send in the JWT token. Headers pertaining to the selected algorithm are automatically added.
 
 ### Basic auth
 
@@ -314,13 +344,13 @@ If authentication fails or times out, Postman will display an error message. You
 
 Before an OAuth 2.0 token generated in Postman expires, Postman automatically refreshes it in the background before you send a request that uses it. The refreshed access token is updated in any requests that it's used in. Auto-refreshing is the default behavior.
 
-To turn this feature off or on, select **Auto-refresh access token**.
+To turn this feature off or on, select **Auto-refresh access token**. To manually refresh a token, select **Refresh**. The token's expiration time displays if the token expires within the next day.
+
+Auto-refresh is available when a refresh token is present. If no refresh token is present, the **Auto-refresh access token** toggle and the manual **Refresh** option aren't available. To check if a refresh token is present, select **Manage Tokens** in the **Token** dropdown list. If a refresh token is not present, check with the authorization service. Postman can't refresh the access tokens without the refresh token.
 
 <img alt="Auto-refresh an OAuth 2.0 access token" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-auto-refresh-v10.jpg" width="500px"/>
 
-To manually refresh a token, select **Refresh** next to the token expiration time.
-
-> Auto-refresh is only available when manually sending the request, and not for scheduled runs or monitors on the same collection.
+> You can use auto-refresh when manually sending the request. Auto-refresh isn't used for scheduled runs or monitors for the same collection.
 
 #### Sharing an OAuth 2.0 access token
 
@@ -339,7 +369,7 @@ After you revoke access, other users with access to the request won't be able to
 
 Postman supports using access tokens or ID tokens for OAuth 2.0 authorization. An _access token_ enables an OAuth client to make calls to an API. An _ID token_ contains information about the authenticated user. This information can be used by an OAuth client to customize their experience.
 
-If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. (If no ID token is present, this dropdown list isn't available.)
+If an ID token is present, you can select the token type (**Access token** or **ID token**) in the **Use Token Type** dropdown list. If no ID token is present, this dropdown list isn't available. To check if an ID token is present, select **Manage Tokens** in the **Token** dropdown list.
 
 <img alt="Change the OAuth 2.0 token type" src="https://assets.postman.com/postman-docs/v10/authorization-oauth2-token-type-v10.jpg" width="500px"/>
 

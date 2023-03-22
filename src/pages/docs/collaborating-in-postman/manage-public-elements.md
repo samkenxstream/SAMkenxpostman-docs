@@ -6,9 +6,9 @@ page_id: "manage_public_elements"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Public Workspace Summary Emails"
     url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
@@ -19,7 +19,7 @@ contextual_links:
     name: "How to Set Up Your First Public Workspace"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"

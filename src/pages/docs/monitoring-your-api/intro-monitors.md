@@ -10,7 +10,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -20,7 +20,7 @@ contextual_links:
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
@@ -36,7 +36,7 @@ contextual_links:
     name: "Momentive tracks production API performance with monitors"
     url: "https://www.postman.com/case-studies/momentive/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman API Monitoring Examples"
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"

@@ -10,7 +10,7 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -28,12 +28,12 @@ contextual_links:
     name: "Werner Enterprises saves 3 hours per week with collections"
     url:  "https://www.postman.com/case-studies/werner/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
@@ -41,7 +41,7 @@ contextual_links:
 warning: false
 ---
 
-Postman Collections are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. As your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access.
+_Postman Collections_ are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. As your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access.
 
 ## Creating your first collection
 
@@ -69,3 +69,9 @@ After you save the request, your new collection and the request are listed under
 > You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace**, hover over **Collections** and select the **+** icon.
 >
 > <img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-collection-v9.jpg" width="300px"/>
+
+## Next steps
+
+* To learn more about collections, visit the [Collections overview](/docs/collections/collections-overview/).
+* To create, edit, delete, and work with your collections, visit [Using collections](/docs/collections/using-collections/).
+* For details on how to run your collection, visit [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).

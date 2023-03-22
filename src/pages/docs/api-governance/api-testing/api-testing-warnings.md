@@ -3,7 +3,7 @@ title: "Warnings in API requests"
 updated: 2022-07-20
 contextual_links:
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Security warnings"
     url: "/docs/api-governance/api-testing/security-warnings/"

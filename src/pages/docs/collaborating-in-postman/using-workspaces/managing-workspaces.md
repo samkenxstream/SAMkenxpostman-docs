@@ -10,7 +10,7 @@ contextual_links:
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -25,7 +25,7 @@ contextual_links:
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Viewing workspace activity"
     url: "/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/"

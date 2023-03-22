@@ -3,14 +3,17 @@ title: "API Governance and API Security in Postman"
 updated: 2022-07-20
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Governance | The Exploratory"
     url: "https://youtu.be/fuquGWdYAGA"
+  - type: link
+    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
+    url: "https://youtu.be/4rxpdcGeixs"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "What Is the Purpose of API Governance?"
     url: "https://blog.postman.com/what-is-the-purpose-of-api-governance/"

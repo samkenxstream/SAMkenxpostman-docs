@@ -9,14 +9,14 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"

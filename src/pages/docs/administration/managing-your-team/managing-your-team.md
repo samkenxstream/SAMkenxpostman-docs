@@ -6,14 +6,17 @@ page_id: "managing_your_team"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman 101 for Admins"
     url: "https://youtu.be/rEKvQO8EYR8"
+  - type: link
+    name: "Collaboration and Governance for API Teams | Postman Intergalactic"
+    url: "https://youtu.be/4rxpdcGeixs"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
@@ -37,6 +40,7 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
     * [Managing partners](#managing-partners)
+    * [Managing guests](#managing-guests)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -78,7 +82,7 @@ If the team member sending the invite isn't a Developer inviting another Develop
 
 You can also let Postman users from your company request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
-> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
+> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider (IdP).
 
 ### Managing invites
 
@@ -139,6 +143,20 @@ For full details about the Postman team roles that you can assign as a Team Admi
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+
+### Managing guests
+
+You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they are added to the team and get access to all team resources and workspaces.
+
+![Convert Guest role](https://assets.postman.com/postman-docs/v10/convert-guest-role-v10.jpg)
+
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#using-auto-flex) to change an external user's role from the Guest role to the Developer role.
+
+A Team Admin can also view the workspaces and collections a user assigned the Guest role can access. Go to your [team dashboard](https://go.postman.co/settings/team/members), and select **View resources**. Select the workspace name or collection name to open it in a new tab. You can also select the user's name to go to their Postman profile.
+
+<img alt="View collections a Guest can view" src="https://assets.postman.com/postman-docs/v10/view-guest-collections-v10.jpg" width="500px"/>
+
+To learn more about sharing collections with external users, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 ## Managing your team’s Postman plan
 

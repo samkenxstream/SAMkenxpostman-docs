@@ -10,9 +10,9 @@ contextual_links:
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "10 Postman Features Everyone Should Know"
     url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
@@ -20,7 +20,7 @@ contextual_links:
     name: "Introducing Postman’s WebSocket Echo Service"
     url: "https://blog.postman.com/introducing-postman-websocket-echo-service/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Exploring the Public API Network"
     url: "/docs/getting-started/exploring-public-api-network/"

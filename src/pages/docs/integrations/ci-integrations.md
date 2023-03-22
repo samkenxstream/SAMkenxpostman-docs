@@ -9,14 +9,14 @@ contextual_links:
     name: "API Development Overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Bitbucket Pipelines"
     url: "/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/"

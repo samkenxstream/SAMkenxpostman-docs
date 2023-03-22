@@ -30,13 +30,32 @@
 
 export const leftNavItems = [
   {
-    name: 'Getting started',
-    parentSlug: 'getting-started',
-    url: '/docs/getting-started/introduction/',
+    name: 'Introduction',
+    parentSlug: 'introduction',
+    url: '/docs/introduction/overview/',
     subMenuItems1: [
       {
-        name: 'Introduction',
-        url: '/docs/getting-started/introduction/',
+        name: 'Overview',
+        url: '/docs/introduction/overview/',
+      },
+      {
+        name: 'Other resources',
+        url: '/docs/introduction/resources/',
+      },
+      {
+        name: 'Feedback',
+        url: '/docs/introduction/feedback/',
+      },
+    ],
+  },
+  {
+    name: 'Getting started',
+    parentSlug: 'getting-started',
+    url: '/docs/getting-started/overview/',
+    subMenuItems1: [
+      {
+        name: 'Getting started',
+        url: '/docs/getting-started/overview/',
       },
       {
         name: 'Installing and updating Postman',
@@ -222,6 +241,10 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/using-grpc-mock/',
           },
           {
+            name: 'Using gRPC examples',
+            url: '/docs/sending-requests/grpc/using-grpc-examples/',
+          },
+          {
             name: 'Understanding gRPC types',
             url: '/docs/sending-requests/grpc/understanding-grpc-types/',
           },
@@ -280,82 +303,120 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Running collections',
-    parentSlug: 'running-collections',
-    url: '/docs/running-collections/running-collections-overview/',
+    name: 'Using collections',
+    parentSlug: 'collections',
+    url: '/docs/collections/collections-overview/',
     subMenuItems1: [
       {
-        name: 'Running collections overview',
-        url: '/docs/running-collections/running-collections-overview/',
+        name: 'Collections overview',
+        url: '/docs/collections/collections-overview/',
       },
       {
-        name: 'Using the Collection Runner',
-        url: '/docs/running-collections/intro-to-collection-runs/',
+        name: 'Using collections',
+        url: '/docs/collections/using-collections/',
       },
       {
-        name: 'Scheduling collection runs',
-        url: '/docs/running-collections/scheduling-collection-runs/',
+        name: 'Running collections',
+        subParentSlug: 'running-collections',
+        slug: '/docs/collections/running-collections/running-collections-overview/',
+        subMenuItems2: [
+          {
+            name: 'Running collections overview',
+            url: '/docs/collections/running-collections/running-collections-overview/',
+          },
+          {
+            name: 'Using the Collection Runner',
+            url: '/docs/collections/running-collections/intro-to-collection-runs/',
+          },
+          {
+            name: 'Scheduling collection runs',
+            url: '/docs/collections/running-collections/scheduling-collection-runs/',
+          },
+          {
+            name: 'Viewing scheduled collection runs',
+            url: '/docs/collections/running-collections/viewing-scheduled-collection-runs/',
+          },
+          {
+            name: 'Scheduling collection runs with monitors',
+            url: '/docs/collections/running-collections/scheduling-collection-runs-monitors/',
+          },
+          {
+            name: 'Triggering runs with webhooks',
+            url: '/docs/collections/running-collections/collection-webhooks/',
+          },
+          {
+            name: 'Building request workflows',
+            url: '/docs/collections/running-collections/building-workflows/',
+          },
+          {
+            name: 'Importing data files',
+            url: '/docs/collections/running-collections/working-with-data-files/',
+          },
+        ],
       },
       {
-        name: 'Viewing scheduled collection runs',
-        url: '/docs/running-collections/viewing-scheduled-collection-runs/',
-      },
-      {
-        name: 'Scheduling collection runs with monitors',
-        url: '/docs/running-collections/scheduling-collection-runs-monitors/',
-      },
-      {
-        name: 'Triggering runs with webhooks',
-        url: '/docs/running-collections/collection-webhooks/',
-      },
-      {
-        name: 'Building request workflows',
-        url: '/docs/running-collections/building-workflows/',
-      },
-      {
-        name: 'Importing data files',
-        url: '/docs/running-collections/working-with-data-files/',
+        name: "Using Live Collections",
+        subParentSlug: 'live-collections',
+        slug: '/docs/collections/live-collections/live-collections-overview/',
+        subMenuItems2: [
+          {
+            name: 'Live Collection overview',
+            url: '/docs/collections/live-collections/live-collections-overview/',
+          },
+          {
+            name: 'Live Collection setup',
+            url: '/docs/collections/live-collections/live-collections-setup/',
+          },
+          {
+            name: 'Updating Live Collections',
+            url: '/docs/collections/live-collections/update-live-collections/',
+          },
+          {
+            name: 'Live Collection settings',
+            url: '/docs/collections/live-collections/live-collections-settings/',
+          },
+        ],
       },
       {
         name: 'Using Newman CLI',
         subParentSlug: 'using-newman-cli',
-        slug: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
+        slug: '/docs/collections/using-newman-cli/command-line-integration-with-newman/',
         subMenuItems2: [
           {
             name: 'Running collections on the command line with Newman',
-            url: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
+            url: '/docs/collections/using-newman-cli/command-line-integration-with-newman/',
           },
           {
             name: 'Installing and running Newman',
-            url: '/docs/running-collections/using-newman-cli/installing-running-newman/',
+            url: '/docs/collections/using-newman-cli/installing-running-newman/',
           },
           {
             name: 'Newman command options',
-            url: '/docs/running-collections/using-newman-cli/newman-options/',
+            url: '/docs/collections/using-newman-cli/newman-options/',
           },
           {
             name: 'Uploading files in Newman',
-            url: '/docs/running-collections/using-newman-cli/newman-file-uploads/',
+            url: '/docs/collections/using-newman-cli/newman-file-uploads/',
           },
           {
             name: 'Using Newman custom reporters',
-            url: '/docs/running-collections/using-newman-cli/newman-custom-reporters/',
+            url: '/docs/collections/using-newman-cli/newman-custom-reporters/',
           },
           {
             name: 'Newman with Docker',
-            url: '/docs/running-collections/using-newman-cli/newman-with-docker/',
+            url: '/docs/collections/using-newman-cli/newman-with-docker/',
           },
           {
             name: 'CI with Postman API',
-            url: '/docs/running-collections/using-newman-cli/continuous-integration/',
+            url: '/docs/collections/using-newman-cli/continuous-integration/',
           },
           {
             name: 'Integrating with Travis CI',
-            url: '/docs/running-collections/using-newman-cli/integration-with-travis/',
+            url: '/docs/collections/using-newman-cli/integration-with-travis/',
           },
           {
             name: 'Integrating with Jenkins',
-            url: '/docs/running-collections/using-newman-cli/integration-with-jenkins/',
+            url: '/docs/collections/using-newman-cli/integration-with-jenkins/',
           },
         ],
       },
@@ -374,6 +435,10 @@ export const leftNavItems = [
           {
             name: 'Postman Flows overview',
             url: '/docs/postman-flows/gs/flows-overview/',
+          },
+          {
+            name: 'About blocks and messages',
+            url: '/docs/postman-flows/gs/blocks-information/',
           },
           {
             name: 'The Postman Flows interface',
@@ -410,6 +475,10 @@ export const leftNavItems = [
             name: 'Using webhooks with Postman Flows',
             url: '/docs/postman-flows/tutorials/webhooks/',
           },
+          {
+            name: 'Creating charts, tables, and output',
+            url: '/docs/postman-flows/tutorials/creating-charts-tables-and-output/',
+          },
         ],
       },
       {
@@ -436,6 +505,10 @@ export const leftNavItems = [
           {
             name: 'Manipulating data',
             url: '/docs/postman-flows/flows-query-language/data-manipulation/',
+          },
+          {
+            name: 'FQL function reference',
+            url: '/docs/postman-flows/flows-query-language/function-reference/',
           },
         ],
       },
@@ -568,7 +641,7 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/managing-workspaces/',
           },
           {
-            name: 'Partner workspaces',
+            name: 'Partner Workspaces',
             url: '/docs/collaborating-in-postman/using-workspaces/partner-workspaces/'
           },
           {
@@ -901,7 +974,7 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring domain capture',
+            name: 'Configuring domain verification and capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
         ],

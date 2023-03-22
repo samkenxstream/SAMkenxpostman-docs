@@ -15,7 +15,7 @@ contextual_links:
     name: "Intro to the Postman API"
     url: "/docs/developer/intro-api/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

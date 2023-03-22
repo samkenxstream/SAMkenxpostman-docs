@@ -9,9 +9,9 @@ contextual_links:
     name: "Token Scanner"
     url: "/docs/administration/token-scanner/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"

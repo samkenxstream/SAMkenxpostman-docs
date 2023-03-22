@@ -6,9 +6,9 @@ updated: 2022-03-14
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Deploying Postman at Enterprise Scale"
     url: "https://blog.postman.com/deploying-postman-at-enterprise-scale/"

@@ -5,7 +5,7 @@ updated: 2021-04-15
 page_id: "discussing_your_work"
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

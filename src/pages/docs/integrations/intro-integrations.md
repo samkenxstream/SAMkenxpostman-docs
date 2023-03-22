@@ -9,9 +9,9 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "The New Postman API Platform: Introducing Powerful Integrations"
     url: "https://blog.postman.com/the-new-postman-api-platform/"

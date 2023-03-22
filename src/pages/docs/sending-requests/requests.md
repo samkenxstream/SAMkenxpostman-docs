@@ -11,7 +11,7 @@ contextual_links:
     name: "Sending your first request"
     url:  "/docs/getting-started/sending-the-first-request/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,17 +24,17 @@ contextual_links:
     name: "Upload a File via POST Request | Postman Level Up"
     url: "https://youtu.be/S7bwkys6D0E"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing the Next-Generation Postman URL Processor"
     url:  "https://blog.postman.com/introducing-the-next-generation-postman-url-processor/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Postman Answers"
     url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Authorizing requests"
     url:  "/docs/sending-requests/authorization/"

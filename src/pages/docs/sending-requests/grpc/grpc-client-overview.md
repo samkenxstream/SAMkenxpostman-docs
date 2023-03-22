@@ -9,6 +9,9 @@ contextual_links:
     url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional resources"
+  - type: link
+    name: "Specifying examples"
+    url: "https://learning.postman.com/docs/sending-requests/examples/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +24,7 @@ contextual_links:
     name: "How We Built It: gRPC support"
     url: "https://youtu.be/XaryQIjm4h0"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman v10 and gRPC: What You Can Do"
     url: "https://blog.postman.com/postman-v10-and-grpc-what-you-can-do/"
@@ -32,7 +35,7 @@ contextual_links:
     name: "How to Choose HTTP or gRPC for Your Next API"
     url: "https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Public gRPC APIs"
     url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"
@@ -44,11 +47,11 @@ gRPC uses [protobuf (protocol buffers)](https://developers.google.com/protocol-b
 
 ## Developing gRPC APIs with Postman
 
-Postman has a client interface to work with gRPC services and the API Builder interface to create and manage your protobuf definitions. Using a gRPC request, you can view supported services and methods (with a service definition), invoke the method of your interest, send a message payload, and view the response from the server, all without entering commands in the terminal or writing any code. You can save these requests into a collection to reuse them later, share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/exploring-public-api-network/).
+Postman has a client interface to work with gRPC services and the API Builder interface to create and manage your protobuf definitions. Using a gRPC request, you can view supported services and methods (with a service definition), invoke the method of your interest, send a message payload, view the response from the server, and save example responses, all without entering commands in the terminal or writing any code. You can save these requests into a collection to reuse them later, share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/exploring-public-api-network/).
 
 You can use the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) to create the service definition using protobuf IDL and keep it as a single source of truth for your API project.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-echo-request.jpg" alt="gRPC request interface">
+<img src="https://assets.postman.com/postman-docs/v10/grpc-echo-request-1-v10.jpg" alt="gRPC request interface">
 
 ## Next steps
 

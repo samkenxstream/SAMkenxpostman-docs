@@ -6,9 +6,9 @@ warning: false
 updated: 2021-12-06
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing Postman Groups: Manage Users with Easier Access Control"
     url: "https://blog.postman.com/introducing-postman-groups/"

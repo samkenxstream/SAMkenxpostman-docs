@@ -11,9 +11,9 @@ contextual_links:
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 2: for Testers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"

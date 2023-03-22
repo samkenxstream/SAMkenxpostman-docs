@@ -10,7 +10,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,8 +19,13 @@ contextual_links:
   - type: link
     name: "Review Test Results in Postman | The Exploratory"
     url: "https://youtu.be/S3GKLTVRtmE"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "How to review Postman test results"
+    url: "https://blog.postman.com/how-to-review-postman-test-results/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
@@ -149,12 +154,13 @@ Postman displays the approximate size of the response. Hover over the response s
 
 ## Saving responses
 
-If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, select **Save Response**.
+If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, you can:
 
-* Select **Save as example** to save the response as an [example](/docs/sending-requests/examples/) that you can access later.
-* Select **Save to a file** to save the response as a JSON file.
+* Select **Save as Example** to save the response as an [example](/docs/sending-requests/examples/) that you can access later.
+* Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then **Save response to file** to save the response as a JSON file.
+* Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then  **Clear response** to remove any data in the response viewer. Note that for event-based requests, this is only available after the stream is closed.
 
-<img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/save-response.jpg" width="300px"/>
+<img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/v10/save-response-v10.jpg" width="505px"/>
 
 ## Viewing security warnings
 

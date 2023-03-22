@@ -11,7 +11,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -19,7 +19,7 @@ contextual_links:
     url: "https://youtu.be/nOYro8AWInI"
   - type: subtitle
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Postman Is Now a Datadog Technology Partner: More Integration Features"
     url: "https://blog.postman.com/postman-datadog-technology-partner-more-integration-features/"

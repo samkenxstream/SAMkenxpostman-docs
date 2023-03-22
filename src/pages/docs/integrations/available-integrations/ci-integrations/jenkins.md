@@ -10,14 +10,14 @@ contextual_links:
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Integrate Jenkins in Postman"
     url: "https://youtu.be/PAlEp2AmSl4"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Stay on Top of Your API Builds with Postman’s Jenkins Integration"
     url: "https://blog.postman.com/stay-on-top-of-your-api-builds-witih-postmans-jenkins-integration/"
@@ -76,7 +76,7 @@ To view details for collections that were run as part of a build, first [configu
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
-> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 
 ## Viewing API Governance and API Security rule violations
 

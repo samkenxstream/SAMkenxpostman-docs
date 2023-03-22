@@ -11,7 +11,7 @@ contextual_links:
     name: "Setting up Postman"
     url: "/docs/getting-started/settings/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

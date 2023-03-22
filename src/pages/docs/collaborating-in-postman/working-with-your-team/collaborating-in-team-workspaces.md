@@ -5,7 +5,7 @@ page_id: "collaborating_in_team_workspaces"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -15,7 +15,7 @@ contextual_links:
     name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Solving Problems Together with Postman Workspaces"
     url: "https://blog.postman.com/solving-problems-together-with-postman-workspaces/"

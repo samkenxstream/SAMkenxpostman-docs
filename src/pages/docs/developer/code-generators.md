@@ -10,7 +10,7 @@ contextual_links:
     name: "Generating client code"
     url: "/docs/sending-requests/generate-code-snippets/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Capturing request data"
     url: "/docs/sending-requests/capturing-request-data/capturing-http-requests/"

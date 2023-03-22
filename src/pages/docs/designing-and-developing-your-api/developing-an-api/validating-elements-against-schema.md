@@ -11,14 +11,19 @@ contextual_links:
     name: "Managing and sharing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "API contract testing: 4 things to validate to meet (and exceed) expectations"
+    url: "https://blog.postman.com/api-contract-testing-4-things-to-validate/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Reports overview"
     url: "/docs/reports/reports-overview/"

@@ -9,7 +9,7 @@ contextual_links:
     name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

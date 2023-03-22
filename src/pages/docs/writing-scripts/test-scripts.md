@@ -14,7 +14,7 @@ contextual_links:
     name: "Receiving responses"
     url:  "/docs/sending-requests/responses/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,7 +27,7 @@ contextual_links:
     name: "Review Test Results in Postman | The Exploratory"
     url: "https://youtu.be/S3GKLTVRtmE"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "testing"
   - type: subtitle
     name: "Case Studies"
@@ -38,12 +38,12 @@ contextual_links:
     name: "VTEX monitors data by running tests every two minutes"
     url: "https://www.postman.com/case-studies/vtex/"
   - type: subtitle
-    name: "Public Workspaces"
+    name: "Public workspaces"
   - type: link
     name: "Test examples in Postman"
     url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Test Examples"
     url: "/docs/writing-scripts/script-references/test-examples/"
@@ -166,11 +166,11 @@ Adding scripts to collections and folders enables you to test the workflows in y
 
 You can update collection and folder scripts by selecting the view more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
-When you [run a collection](/docs/running-collections/intro-to-collection-runs/) the collection runner displays the test results, including the response time in milliseconds and details about whether a specific request in the collection passed or failed its tests.
+When you [run a collection](/docs/collections/running-collections/intro-to-collection-runs/) the collection runner displays the test results, including the response time in milliseconds and details about whether a specific request in the collection passed or failed its tests.
 
 ![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v9.jpg)
 
-You can write scripts to control the order in which your requests run using [branching and looping](/docs/running-collections/building-workflows/).
+You can write scripts to control the order in which your requests run using [branching and looping](/docs/collections/running-collections/building-workflows/).
 
 ## Debugging your tests
 
@@ -185,4 +185,4 @@ After writing tests in Postman, you could write more complex tests and use them 
 
 * For more information about what you can do using the `pm` object, check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and visit the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
 * To learn how to use tests in conjunction with monitoring, which enables you to confirm that your API meets performance requirements, visit [Monitoring your APIs](/docs/monitoring-your-api/intro-monitors/).
-* To learn how to automate your testing by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/running-collections/using-newman-cli/integration-with-travis/).
+* To learn how to automate your testing by integrating collection runs within your CI/CD configuration, visit [Integrating with Travis CI](/docs/collections/using-newman-cli/integration-with-travis/).

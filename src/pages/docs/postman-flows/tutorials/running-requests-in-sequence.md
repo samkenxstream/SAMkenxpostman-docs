@@ -5,7 +5,7 @@ updated: 2022-11-17
 
 If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/core-concepts/blocks/).
 
-> Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267f9315d367a64e7ba06e5)
+> Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/flows-snippets/flow/6267f9315d367a64e7ba06e5)
 
 1. **Add a Send Request block**
 

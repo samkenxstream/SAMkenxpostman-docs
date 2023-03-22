@@ -10,14 +10,14 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Generating Code Snippets | Postman Level Up"
     url: "https://www.youtube.com/watch?v=yYwkvtSvpHI"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Generate Code for Your Front-end Apps"
     url: "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/"
@@ -30,7 +30,7 @@ contextual_links:
     name: "ShipEngine uses Postman's code generator to integrate API requests"
     url: "https://www.postman.com/case-studies/shipengine/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Capturing HTTP requests"
     url:  "/docs/sending-requests/capturing-request-data/capturing-http-requests/"
@@ -72,6 +72,7 @@ Postman supports the following:
 | **Language**  | **Framework** |
 | --- | --- |
 | C | [LibCurl](https://curl.se/libcurl/c/) |
+| C# | HttpClient |
 | C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |

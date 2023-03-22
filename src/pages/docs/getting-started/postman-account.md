@@ -10,19 +10,19 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Enable Two-Factor Authentication"
     url: "https://youtu.be/nmzEmrVWGQw"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Secure Your Postman Account with Two-Factor Authentication"
     url: "https://blog.postman.com/secure-your-postman-account-with-two-factor-authentication/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Customizing your Postman profile"
     url: "/docs/getting-started/postman-profile/"
@@ -77,13 +77,13 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing in to Postman
 
-You can sign in to Postman by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
+You can sign in to the Postman desktop app by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
-When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign in to Postman. If your browser doesn't open within a few seconds, select the **open your browser** link in Postman.
+When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in from your browser to continue_. Your default browser will automatically open a webpage asking you to sign in to Postman. If your browser doesn't open within a few seconds, select either **open it manually** or **copy the URL**.
 
 > You can opt out of the sign in process at any time by going back to Postman and selecting **Skip and take me to Postman Desktop App**.
 
-Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with SSO enabled, opt to **Sign in with SSO**.
+Sign in to Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with single-sign on (SSO) enabled, opt to **Sign in with SSO**. To learn more, see [Signing in to an SSO team](/docs/administration/sso/user-sso/).
 
 Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you're working on, clear this checkbox. Note that Postman will prompt you to sign in again after 30 minutes.
 

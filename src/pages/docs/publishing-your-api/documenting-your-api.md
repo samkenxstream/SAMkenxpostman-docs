@@ -1,6 +1,6 @@
 ---
 title: "Generating API documentation"
-updated: 2022-10-04
+updated: 2023-01-05
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -8,7 +8,7 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -21,7 +21,7 @@ contextual_links:
     name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
     url: "https://youtu.be/52pXP3X4a_8"
   - type: dynamic_blog
-    name: "Blog Posts"
+    name: "Blog posts"
     blog_tag: "documentation"
   - type: subtitle
     name: "Case Studies"
@@ -32,7 +32,7 @@ contextual_links:
     name: "SEI Novus uses documentation to keep business use cases solved"
     url: "https://www.postman.com/case-studies/sei-novus/"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Writing your docs"
     url: "/docs/publishing-your-api/authoring-your-documentation/"

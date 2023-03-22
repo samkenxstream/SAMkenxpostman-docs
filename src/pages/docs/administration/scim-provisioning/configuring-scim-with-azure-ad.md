@@ -11,9 +11,9 @@ contextual_links:
     name: "Configuring SSO with Azure AD"
     url: "/docs/administration/sso/azure-ad/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Introducing User Management in Postman via Azure AD SCIM"
     url: "https://blog.postman.com/introducing-user-management-postman-azure-ad-scim/"

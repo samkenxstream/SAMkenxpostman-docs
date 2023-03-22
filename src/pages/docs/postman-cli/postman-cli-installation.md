@@ -8,7 +8,7 @@ contextual_links:
     name: "Postman CLI overview"
     url: "/docs/postman-cli/postman-cli-overview"
   - type: section
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Postman CLI command options"
     url: "/docs/postman-cli/postman-cli-options/"

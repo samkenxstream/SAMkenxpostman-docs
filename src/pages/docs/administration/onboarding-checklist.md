@@ -7,7 +7,7 @@ page_id: "onboarding_checklist"
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: link
     name: "Security and Compliance: A Shared Responsibility Model"
     url: "https://www.postman.com/trust/shared-responsibility/"
@@ -15,7 +15,7 @@ contextual_links:
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
@@ -45,17 +45,12 @@ Contact your IT team to establish what the procedure is for adding a new piece o
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
     * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/proxy/)​.
-* It's recommended that your IT team allowlists Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by allowlisting the following domains:
-
-    * `*.postman.com`
-    * `*.getpostman.com`
-    * `*.postman.co`
-    * `*.pstmn.io`
+* Your IT team may need to configure allowlists for Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. See [Using Postman behind a firewall](/docs/getting-started/installation-and-updates/#using-postman-behind-a-firewall) for more information.
 
 * Depending on your [plan](https://www.postman.com/pricing) you may be able to obtain static IP addresses for Postman Monitors. Your IT team must allowlist these static IPs for monitoring. See [Running Postman Monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) for details on how to obtain and configure static IP addresses for monitoring.
 
 * Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/administration/team-settings/) for more information.
-* If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers.
+* If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers (IdP).
 
 ### Invite team members
 

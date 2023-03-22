@@ -8,19 +8,19 @@ contextual_links:
     name: "API version control overview"
     url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Publish an API Version"
     url: "https://youtu.be/DirFZZ7_wRI"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Blog posts"
   - type: link
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
   - type: subtitle
-    name: "Next Steps"
+    name: "Next steps"
   - type: link
     name: "Managing and sharing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"

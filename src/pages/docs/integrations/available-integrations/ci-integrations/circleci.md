@@ -11,7 +11,7 @@ contextual_links:
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
   - type: section
-    name: "Additional Resources"
+    name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link

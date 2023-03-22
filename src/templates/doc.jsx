@@ -14,7 +14,6 @@ import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
-import LoadQualtrics from '../components/modules/loadQualtrics';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
 
 const DocWrapper = styled.div`
@@ -211,6 +210,24 @@ const DocContent = styled.div`
       list-style: lower-alpha;
     }
   } 
+  //  anchor link tag styling
+  a.anchor.before {
+    top: 0.2em;
+    padding-right: 8px;
+
+    svg {
+      width: auto;
+      height: 0.9em;
+      display: block;
+    }
+  }
+
+  a.anchor:hover {
+    display: block;
+    border: none !important;
+  }
+
+  
 `
 
 const RightColumnWrapper = styled.aside`
@@ -299,8 +316,6 @@ const DocPage = ({ data }) => {
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
-                {/* Qualtrics */}
-                <LoadQualtrics />
                 <PreviousAndNextLinks data={{ previous, next }} />
               </main>
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
@@ -310,7 +325,7 @@ const DocPage = ({ data }) => {
                 <div className="sticky">
                   <div> 
                     <p>
-                      <span className="font-weight-bold">Postman Newsletter</span> 
+                      <span className="font-weight-bold">Postman newsletter</span> 
                       <br></br>
                       Subscribe for product updates, API best practices.
                     </p>
