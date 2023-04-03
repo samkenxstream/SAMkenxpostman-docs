@@ -858,10 +858,6 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Monitoring API uptime',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
-      {
         name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
@@ -884,6 +880,10 @@ export const leftNavItems = [
       {
         name: 'Monitoring FAQs',
         url: '/docs/monitoring-your-api/faqs-monitors/',
+      },
+      {
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
     ],
   },
@@ -1149,7 +1149,22 @@ export const leftNavItems = [
       },
       {
         name: 'Postman API',
-        url: '/docs/developer/intro-api/',
+        subParentSlug: 'postman-api',
+        slug: '/docs/developer/postman-api/intro-api/',
+        subMenuItems2: [
+          {
+            name: 'Postman API overview',
+            url: '/docs/developer/postman-api/intro-api/'
+          },
+          {
+            name: 'Postman API authentication',
+            url: '/docs/developer/postman-api/authentication/'
+          },
+          {
+            name: 'Postman API rate limits',
+            url: '/docs/developer/postman-api/postman-api-rate-limits/'
+          }
+        ]
       },
       {
         name: 'Echo API',

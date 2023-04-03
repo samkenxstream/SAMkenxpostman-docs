@@ -1117,7 +1117,11 @@
 	},
 	{
 		"from": "/docs/postman/postman-api/intro-api/",
-		"to": "/docs/developer/intro-api/"
+		"to": "/docs/developer/postman-api/intro-api/"
+	},
+	{
+		"from": "/docs/developer/intro-api/",
+		"to": "/docs/developer/postman-api/intro-api/"
 	},
 	{
 		"from": "/docs/postman/postman_api/continuous_integration/",
@@ -2134,5 +2138,9 @@
 	{
 		"from": "/docs/running-collections/using-newman-cli/newman-with-docker/",
 		"to": "/docs/collections/using-newman-cli/newman-with-docker/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
 	}
 ]

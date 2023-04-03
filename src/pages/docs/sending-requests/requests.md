@@ -99,8 +99,6 @@ If you have a request you want to run, you will need to know the URL, method, an
 
 To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__.
 
-> Open the __Bootcamp__ in Postman and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman.
-
 ### Setting request URLs
 
 Each request you send in Postman requires a URL representing the API endpoint you are working with. Each operation you can perform using an API is typically associated with an endpoint. Each endpoint in an API is available at a particular URL. This is what you enter into Postman to access the API.

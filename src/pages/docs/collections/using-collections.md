@@ -62,6 +62,7 @@ Select **Collections** in the sidebar for the list of collections in a workspace
     * [Reverting collection changes](#reverting-collection-changes)
     * [Viewing pull requests, forks, and collection details](#viewing-pull-requests-forks-and-collection-details)
 * [Using collections in development workflows](#using-collections-in-development-workflows)
+* [Using collection templates](#using-collection-templates)
 * [About multi-protocol request collections](#about-multi-protocol-request-collections)
 
 ## Creating collections
@@ -73,7 +74,9 @@ There are several ways to create a new collection:
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
 
 * Select **New**, then select **Collection**.
-* Select **Home** in the Postman header. Select **Create New**, then select **Collection**.
+* With **Collections** open in the left sidebar, select **+**.
+* In an empty workspace, select **Create Collection**.
+* You can also [create a collection from a template](#using-collection-templates).
 
 To customize and configure a new collection, do the following:
 
@@ -257,6 +260,16 @@ Collections can power various parts of your API development, testing, and publis
 * Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Monitor collection**.
 * You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
+
+## Using collection templates
+
+Not sure where to start when creating a collection? Instead of starting from scratch, you can create a collection from a template. Several collection templates are available for getting started with integrations, API documentation, conditional workflows, or data visualization.
+
+There are several ways to create a collection from a template:
+
+* When you first create your account, you will be asked if you want to create a collection from a template.
+* In an empty workspace, in the left sidebar, select **Use a Template**.
+* Select **New**, then select **Use a template**.
 
 ## About multi-protocol request collections
 

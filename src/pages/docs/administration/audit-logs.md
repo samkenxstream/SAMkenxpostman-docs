@@ -74,7 +74,7 @@ Each audit log event has the following attributes:
 
 To get started, go to the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and open the **Audit Logs** folder to view the GET request and example responses.
 
-> You must [generate a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key) to access the [Postman API](/docs/developer/intro-api/).
+> You must [generate a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) to access the [Postman API](/docs/developer/postman-api/intro-api/).
 
 ## Logged events
 

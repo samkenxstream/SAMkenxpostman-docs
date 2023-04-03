@@ -57,6 +57,10 @@ These workspaces contains example flows utilizing a multitude of APIs for differ
 
 > Postman Flows is free to use for up to three users in our Free plan. Postman Flows is available as an add-on on our [Professional plan](https://www.postman.com/pricing/).
 
+## Enabling Postman Flows
+
+To get started using Postman Flows, you'll need to assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+
 ## Quick start
 
 To get started, check out the following resources:

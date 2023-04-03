@@ -537,6 +537,7 @@ export const DropdownStylesSecond = styled.div`
   }
   .dropdown-item-text-wrap {
     white-space: normal;
+    color: #707070;
   }
   .dropdown-item:active {
     background-color: #F9F9F9;

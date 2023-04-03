@@ -9,7 +9,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Postman API"
-    url: "/docs/developer/intro-api/"
+    url: "/docs/developer/postman-api/intro-api/"
   - type: section
     name: "Additional resources"
   - type: subtitle

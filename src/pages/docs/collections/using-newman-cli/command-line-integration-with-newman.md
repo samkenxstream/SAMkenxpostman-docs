@@ -35,7 +35,7 @@ contextual_links:
     name: "Next steps"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/developer/intro-api/"
+    url: "/docs/developer/postman-api/intro-api/"
 warning: false
 ---
 Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It's built with extensibility in mind so that you can integrate it with your continuous integration (CI) servers and build systems.

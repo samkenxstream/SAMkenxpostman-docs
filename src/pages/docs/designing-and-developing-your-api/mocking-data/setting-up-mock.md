@@ -120,7 +120,7 @@ To configure your new mock server, give it a name. You can select an optional en
 
 > You can save the mock URL to an [environment variable](/docs/sending-requests/variables/) in a new environment. You can then reference the variable in your requests by making the new environment active before sending the request. Learn more about [using variables with mock servers](/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/#using-variables-with-mock-servers).
 
-If you choose to make your mock server private, you need to add a [Postman API key](/docs/developer/intro-api/) in the request header when sending requests to the mock server: `x-api-key:<Your-Postman-API-key>`. If you [share the collection](/docs/collaborating-in-postman/sharing/), others can use their Postman API keys to make calls to the mock server.
+If you choose to make your mock server private, you need to add a [Postman API key](/docs/developer/postman-api/intro-api/) in the request header when sending requests to the mock server: `x-api-key:<Your-Postman-API-key>`. If you [share the collection](/docs/collaborating-in-postman/sharing/), others can use their Postman API keys to make calls to the mock server.
 
 > Not all configuration options will be available, depending on the method you used to create the mock server.
 

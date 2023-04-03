@@ -96,7 +96,10 @@ Workspace Admins, Partner Managers, and Partner Leads can invite partners to Par
 
 To invite partners to a Partner Workspace, do the following:
 
-1. Open the workspace and select **Invite** in the upper-right corner.
+1. Open the workspace, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings** in the workspace's **Overview** tab, and then select **Invite**.
+
+    > You can also select **Invite** in the Postman header.
+
 1. (Workspace Admins and Partner Managers only) Select **Partners**, then **Continue**.
 1. Enter the name, email, or group name of the partners.
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
@@ -114,7 +117,10 @@ Workspace Admins and Partner Managers can invite team members to Partner Workspa
 
 To invite team members to a Partner Workspace, do the following:
 
-1. Open the workspace and select **Invite** in the upper-right corner.
+1. Open the workspace, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings** in the workspace's **Overview** tab, and then select **Invite**.
+
+    > You can also select **Invite** in the Postman header.
+
 1. Select **Team members**, then **Continue**.
 1. Enter the name, email, or group name of the team members.
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).

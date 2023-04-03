@@ -19,4 +19,6 @@ Developers can enable Postman Live Collections by installing the Postman SDK in 
 
 ## Next steps
 
+To join the wait list and try out Postman Live Collections, [sign up for early access](https://www.postman.com/lp/postman-live-collections/).
+
 To get started with Live Collections, see [Live Collections setup](/docs/collections/live-collections/live-collections-setup/).

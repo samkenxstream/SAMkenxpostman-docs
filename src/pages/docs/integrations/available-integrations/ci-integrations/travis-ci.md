@@ -86,7 +86,7 @@ To add the Postman CLI configuration to your Travis CI project, do the following
 
 1. Create a file named **.travis.yml** at the root of your project repository.
 1. Add the Postman CLI configuration you copied from Postman to the **.travis.yml** file:
-    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 1. Commit and push the changes to your remote repository.
 1. In Travis CI, open the repository from the dashboard. Then select **More options > Trigger build**.
 1. To view the test results in Postman, open your API and select **Test and Automation**.

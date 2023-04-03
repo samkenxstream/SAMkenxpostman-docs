@@ -35,7 +35,7 @@ To sign in to Postman with SSO, do the following:
 
 1. Enter the team domain, then select **Continue**.
 
-    > Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
+    > Select **Stay signed in for 30 days** if you want to remain signed in to your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 
     <img src="https://assets.postman.com/postman-docs/postman-sign-in-sso-v9.16.jpg" alt="Sign in with SSO" width="350px"/>
 
@@ -43,6 +43,6 @@ To sign in to Postman with SSO, do the following:
 
 1. Postman will redirect you to the configured IdP. Enter your SSO details to sign in.
 
-    > The first time you sign in to Postman, you may need to carry out extra steps to set up access to your IdP account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
+    > The first time you sign in to Postman, you may need to carry out extra steps to set up access to your IdP account. Sign in using SSO and follow the steps to link your IdP account to Postman.
 
 > If you're a member of multiple Postman teams with varying authentication methods, you must sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.

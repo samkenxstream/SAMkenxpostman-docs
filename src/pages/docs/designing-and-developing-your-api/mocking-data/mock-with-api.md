@@ -13,7 +13,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Intro to the Postman API"
-    url: "/docs/developer/intro-api/"
+    url: "/docs/developer/postman-api/intro-api/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -62,7 +62,7 @@ To mock a collection using the Postman API, you first need to know the collectio
 
 Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/collections`
 
-If you send the request, you'll receive an authentication error. To [authenticate with the Postman API](https://learning.postman.com/docs/developer/intro-api/#authentication), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](https://learning.postman.com/docs/developer/intro-api/#generating-a-postman-api-key) if you don't already have one.)
+If you send the request, you'll receive an authentication error. To [authenticate with the Postman API](/docs/developer/postman-api/authentication/), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key) if you don't already have one.)
 
 Select **Send** to send the `GET All Collections` request. The response pane displays a list of all your collections. Search for the `testAPI` collection and locate the `uid` value. You will use this collection ID in the next step.
 

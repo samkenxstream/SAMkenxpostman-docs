@@ -1,6 +1,6 @@
 ---
 title: "Postman CLI overview"
-updated: 2022-09-15
+updated: 2023-03-20
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -30,10 +30,9 @@ contextual_links:
   - type: link
     name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"
-warning: false
 ---
 
-The Postman CLI is a secure command-line companion for Postman. It is secured and supported by Postman. The Postman CLI enables you to:
+The Postman CLI is a secure command-line companion for Postman. It's secured and supported by Postman. The Postman CLI enables you to:
 
 * Run a collection with its collection ID or path.
 * Send run results to Postman by default.
@@ -44,6 +43,7 @@ The Postman CLI is a secure command-line companion for Postman. It is secured an
 
 * [Comparing the Postman CLI and Newman](#comparing-the-postman-cli-and-newman)
 * [Deciding which command-line companion to use](#deciding-which-command-line-companion-to-use)
+* [About the Postman CLI and Postman API usage](#about-the-postman-cli-and-postman-api-usage)
 
 ## Comparing the Postman CLI and Newman
 
@@ -69,3 +69,15 @@ Both the Postman CLI and Newman enable you to run and test collections directly 
 For example, assume you already manage your own security for open-source software, and you want to run collections from a script. Also assume you want visibility into any software you build into your CI/CD pipeline. Newman would be a good fit for this use case because Newman's repository is public and Newman isn't signed or secured by Postman.
 
 Here's another example. Assume you don't already support or secure any open-source software, and you want any software you use to be signed and secured by its developer. The Postman CLI would be a good fit for this use case because the Postman CLI is signed and secured by Postman.
+
+## About the Postman CLI and Postman API usage
+
+Some Postman CLI commands use the [Postman API](/docs/developer/postman-api/intro-api/) to fetch data from and send data to Postman's servers. These commands count toward your monthly [Postman API usage](/docs/administration/resource-usage/#postman-api-usage). The number of Postman API calls you can make each month depends on your [Postman plan](https://www.postman.com/pricing/).
+
+The following Postman CLI commands make calls to the Postman API and count toward your Postman API usage:
+
+* `postman login` - Uses one call to authenticate a user with a Postman API key.
+* `postman collection run` - Uses one call to fetch a collection by ID, one call to fetch an environment (if any), and one call to send data back to Postman.
+* `postman api lint` - Uses one call to fetch the governance and security rules and one call to send a report back to Postman.
+
+Learn more about [Postman CLI command options](/docs/postman-cli/postman-cli-options/).

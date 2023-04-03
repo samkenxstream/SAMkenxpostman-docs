@@ -162,7 +162,7 @@ code[class*="language-"] {
   display: flex;
   justify-content: space-between;
 }
-}
+
 .left-nav-re {
   padding: 32px 0px 8px 0px;
   background-color: ${(props) => props.theme.colors.grey_05};

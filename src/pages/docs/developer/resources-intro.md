@@ -21,7 +21,7 @@ contextual_links:
     name: "Next steps"
   - type: link
     name: "Postman API"
-    url: "/docs/developer/intro-api/"
+    url: "/docs/developer/postman-api/intro-api/"
 
 warning: false
 
@@ -31,7 +31,7 @@ You can use a variety of Postman developer resources in your projects, including
 
 Check out the pages in this section for an intro to developer resources that allow you to engage with the Postman community and integrate Postman into your workflow.
 
-* [Postman API](/docs/developer/intro-api/)
+* [Postman API](/docs/developer/postman-api/intro-api/)
     * Make requests to access your Postman data.
 * [Echo API](/docs/developer/echo-api/)
     * Use the Echo API to learn and experiment with Postman.

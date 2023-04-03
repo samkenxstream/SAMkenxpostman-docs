@@ -103,7 +103,7 @@ To share a collection's JSON using the Postman API, do the following:
 1. Select **Via API**.
 1. Select **Get collection JSON using Collection Access Key**.
 1. Select **Generate New Key** to create a collection access key. The collection access key enables other users to have read-only access to the collection JSON.
-1. (Optional) Select **Manage keys** to view or revoke this collection access key on your API Key page. To learn more about collection access keys, see [Generating a collection access key](/docs/developer/intro-api/#generating-a-collection-access-key).
+1. (Optional) Select **Manage keys** to view or revoke this collection access key on your API Key page. To learn more about collection access keys, see [Generate a collection access key](/docs/developer/postman-api/authentication/#generate-a-collection-access-key).
 
 <!-- vale Postman.Avoid = YES -->
 

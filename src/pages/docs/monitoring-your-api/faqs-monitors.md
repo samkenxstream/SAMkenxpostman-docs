@@ -10,13 +10,11 @@ warning: false
 
 ### What can I test with monitors?
 
-You can use uptime monitors to make sure your servers are online and are responding as expected. You also can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, and error handling.
+You can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, and error handling.
 
 ### How many monitors can I create?
 
 There is no limit to the number of collection-based monitors you can create. You can have any number of collections, each with any number of monitors, and each monitor can run on a different schedule.
-
-For limits on the number of uptime monitors you can create, see [Uptime monitor pricing](/docs/monitoring-your-api/uptime-monitors/#uptime-monitor-pricing).
 
 ### How many regions can my monitor run in?
 
@@ -38,7 +36,7 @@ You can't import existing global variables into a monitor, but you can create ne
 
 ### How many HTTP requests can a monitor send?
 
-Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
+For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman paid plans).
 
 ### Can I run a request multiple times?
 
@@ -52,13 +50,13 @@ There is no specific limit to the amount of data that can be sent or received pe
 
 You can upload a data file with sets of values to use as variable inputs when running the monitor, similar to the [collection runner](/docs/collections/running-collections/working-with-data-files/). Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON). Learn more about [uploading a data file for a monitor](/docs/monitoring-your-api/setting-up-monitor/#uploading-a-data-file).
 
-Because monitors run in the Postman cloud, you can't attach form data or binary files to requests like you can in the [request builder](https://learning.postman.com/docs/sending-requests/requests/#form-data). Instead, you can add [raw data](https://learning.postman.com/docs/sending-requests/requests/#raw-data) on the request's **Body** tab to send JSON or other text data with the request.
+Because scheduled collection runs and monitors run in the Postman cloud, you can't attach form data or binary files to requests like you can in the [request builder](https://learning.postman.com/docs/sending-requests/requests/#form-data). Instead, you can add [raw data](https://learning.postman.com/docs/sending-requests/requests/#raw-data) on the request's **Body** tab to send JSON or other text data with the request.
 
 > A monitor can also use files that can be retrieved by an API from cloud services such as Google Docs or Dropbox.
 
 ### Are static IP addresses dedicated to individual customers or shared?
 
-The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Professional and Enterprise teams. Static IP addresses aren't available for uptime monitors. For more information, see [Running Postman Monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
+The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Professional and Enterprise teams. For more information, see [Running Postman Monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### How do I troubleshoot problems?
 

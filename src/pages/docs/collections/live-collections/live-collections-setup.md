@@ -17,7 +17,7 @@ To start using Live Collections, create a collection, then install the Postman S
 
 1. Configure the Postman SDK by adding a code snippet to your application.
 
-    1. You need to add a [Postman API key](/docs/developer/intro-api/) to the code snippet. You can do this with a variable in your application, or select **Add API Key**.
+    1. You need to add a [Postman API key](/docs/developer/postman-api/intro-api/) to the code snippet. You can do this with a variable in your application, or select **Add API Key**.
 
         ![Live Collection configure SDK](https://assets.postman.com/postman-docs/v10/live-collections-add-api-key.jpg)
 
